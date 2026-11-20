@@ -1,0 +1,2475 @@
+{
+  "schema_version": 1,
+  "package": "Public edition: 54 original procedural scenery/prop GLBs",
+  "production_deployed": false,
+  "assets": [
+    {
+      "id": "F01",
+      "file": "assets/flowers/F01-palette-v1.glb",
+      "category": "flowers",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 135880,
+      "sha256": "a071558817ef97ed741a520ce73e3ea27b405e1b1465cc3a2c21f017964a2ca2",
+      "source": "project-original procedural geometry: assets/flowers/F01-palette-v1.glb",
+      "triangles": 5004,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Stem grip origin; local +Y toward bloom. Preserve picked species; no fixed-bouquet substitution."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.10461869835853577,
+          -0.17000001668930054,
+          -0.017999999225139618
+        ],
+        [
+          0.104825958609581,
+          0.534774124622345,
+          0.12199999392032623
+        ]
+      ],
+      "dimensions_m": [
+        0.20944465696811676,
+        0.7047741413116455,
+        0.13999999314546585
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "F02",
+      "file": "assets/flowers/F02-palette-v1.glb",
+      "category": "flowers",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 148036,
+      "sha256": "4464ee89aefdc7dfae36c0f6ade666d62debf69ab22edfb424d85dbf1d434454",
+      "source": "project-original procedural geometry: assets/flowers/F02-palette-v1.glb",
+      "triangles": 4716,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Stem grip origin; local +Y toward bloom. Preserve picked species; no fixed-bouquet substitution."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.10291984677314758,
+          -0.17000001668930054,
+          -0.013728628866374493
+        ],
+        [
+          0.10600000619888306,
+          0.5352271199226379,
+          0.04600000008940697
+        ]
+      ],
+      "dimensions_m": [
+        0.20891985297203064,
+        0.7052271366119385,
+        0.05972862895578146
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "F03",
+      "file": "assets/flowers/F03-palette-v1.glb",
+      "category": "flowers",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 106244,
+      "sha256": "c798e7af187f6fd95bd7aaf1fb1a1aaea9682498813992a33f86d21d31cfe4d2",
+      "source": "project-original procedural geometry: assets/flowers/F03-palette-v1.glb",
+      "triangles": 2757,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Stem grip origin; local +Y toward bloom. Preserve picked species; no fixed-bouquet substitution."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.12766720354557037,
+          -0.17000003159046173,
+          -0.013808281160891056
+        ],
+        [
+          0.12982380390167236,
+          0.559454619884491,
+          0.048914212733507156
+        ]
+      ],
+      "dimensions_m": [
+        0.25749100744724274,
+        0.7294546514749527,
+        0.06272249389439821
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "F04",
+      "file": "assets/flowers/F04-palette-v1.glb",
+      "category": "flowers",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 102392,
+      "sha256": "7bf702ae49fa321cf38f96f52a65082bd39f9c4b8f48e370b8e5e6b245cc49b4",
+      "source": "project-original procedural geometry: assets/flowers/F04-palette-v1.glb",
+      "triangles": 3276,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Stem grip origin; local +Y toward bloom. Preserve picked species; no fixed-bouquet substitution."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.0989999994635582,
+          -0.17000001668930054,
+          -0.013728628866374493
+        ],
+        [
+          0.0989999994635582,
+          0.5289999842643738,
+          0.04600000008940697
+        ]
+      ],
+      "dimensions_m": [
+        0.1979999989271164,
+        0.6990000009536743,
+        0.05972862895578146
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "F05",
+      "file": "assets/flowers/F05-palette-v1.glb",
+      "category": "flowers",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 114404,
+      "sha256": "f1f3cc40e7d357b7870c9e18aaad406e1cfb50fffde6670d02a0e73836b1b53d",
+      "source": "project-original procedural geometry: assets/flowers/F05-palette-v1.glb",
+      "triangles": 3324,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Stem grip origin; local +Y toward bloom. Preserve picked species; no fixed-bouquet substitution."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.08949021250009537,
+          -0.17000001668930054,
+          -0.013728628866374493
+        ],
+        [
+          0.08432614058256149,
+          0.5576868057250977,
+          0.013000000268220901
+        ]
+      ],
+      "dimensions_m": [
+        0.17381635308265686,
+        0.7276868224143982,
+        0.026728629134595394
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "F06",
+      "file": "assets/flowers/F06-palette-v1.glb",
+      "category": "flowers",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 59072,
+      "sha256": "2fa3401372bb4bb9a2bc20a83093629d5e63e1830b75c5a3961a1debb52c3bd4",
+      "source": "project-original procedural geometry: assets/flowers/F06-palette-v1.glb",
+      "triangles": 2156,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Stem grip origin; local +Y toward bloom. Preserve picked species; no fixed-bouquet substitution."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.08949021250009537,
+          -0.17000001668930054,
+          -0.07454273104667664
+        ],
+        [
+          0.08432614058256149,
+          0.49517473578453064,
+          0.07454273104667664
+        ]
+      ],
+      "dimensions_m": [
+        0.17381635308265686,
+        0.6651747524738312,
+        0.14908546209335327
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "F07",
+      "file": "assets/flowers/F07-palette-v1.glb",
+      "category": "flowers",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 151096,
+      "sha256": "938a5c89d2298d64b5c27a4f5699390b343ea9176e11d8984744ccda00c65e98",
+      "source": "project-original procedural geometry: assets/flowers/F07-palette-v1.glb",
+      "triangles": 5580,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Stem grip origin; local +Y toward bloom. Preserve picked species; no fixed-bouquet substitution."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.12978452444076538,
+          -0.17000001668930054,
+          -0.1295766532421112
+        ],
+        [
+          0.12978452444076538,
+          0.5001789331436157,
+          0.1295766532421112
+        ]
+      ],
+      "dimensions_m": [
+        0.25956904888153076,
+        0.6701789498329163,
+        0.2591533064842224
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "F08",
+      "file": "assets/flowers/F08-palette-v1.glb",
+      "category": "flowers",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 130360,
+      "sha256": "7855a43661294d2b8685b533142291d7d2c2c5cd744c19dbd759ba5cc0f227f1",
+      "source": "project-original procedural geometry: assets/flowers/F08-palette-v1.glb",
+      "triangles": 3563,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Stem grip origin; local +Y toward bloom. Preserve picked species; no fixed-bouquet substitution."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.09986961632966995,
+          -0.17000003159046173,
+          -0.01380828395485878
+        ],
+        [
+          0.09986961632966995,
+          0.5298696756362915,
+          0.04559589549899101
+        ]
+      ],
+      "dimensions_m": [
+        0.1997392326593399,
+        0.6998697072267532,
+        0.05940417945384979
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP04-cushion",
+      "file": "assets/props/CP04-cushion.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 16692,
+      "sha256": "545088faaea334f24f71841379b85103f31150920becee2858f9de67f7e93fa7",
+      "source": "project-original procedural geometry: assets/props/CP04-cushion.glb",
+      "triangles": 188,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.32499998807907104,
+          0,
+          -0.32499998807907104
+        ],
+        [
+          0.32499998807907104,
+          0.1599999964237213,
+          0.32499998807907104
+        ]
+      ],
+      "dimensions_m": [
+        0.6499999761581421,
+        0.1599999964237213,
+        0.6499999761581421
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP04-mat",
+      "file": "assets/props/CP04-mat.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 34764,
+      "sha256": "96f6a6b53c815b8c6397b8a290eb3c71eabc076b6f1552105e37344461a0d24a",
+      "source": "project-original procedural geometry: assets/props/CP04-mat.glb",
+      "triangles": 584,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -1.625,
+          0.040000006556510925,
+          -1.100000023841858
+        ],
+        [
+          1.625,
+          0.20350000262260437,
+          1.100000023841858
+        ]
+      ],
+      "dimensions_m": [
+        3.25,
+        0.16349999606609344,
+        2.200000047683716
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP05-bench",
+      "file": "assets/props/CP05-bench.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 173852,
+      "sha256": "c38d99e668abea34e77a68f79b673fb9bcd554742b61d8aad9f6c67ec45306e2",
+      "source": "project-original procedural geometry: assets/props/CP05-bench.glb",
+      "triangles": 2068,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -1.5,
+          0,
+          -0.4350000023841858
+        ],
+        [
+          1.5,
+          1.4600000381469727,
+          0.38499999046325684
+        ]
+      ],
+      "dimensions_m": [
+        3.0,
+        1.4600000381469727,
+        0.8199999928474426
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP07-1-banana",
+      "file": "assets/props/CP07-1-banana.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 2108,
+      "sha256": "1c57a4a9205f14dc5194c449f6884b6582ba54d5673b75cc7e23722122e73f2a",
+      "source": "project-original procedural geometry: assets/props/CP07-1-banana.glb",
+      "triangles": 30,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.13392871618270874,
+          0,
+          -0.22031572461128235
+        ],
+        [
+          0.25,
+          0.1899999976158142,
+          0.2222769409418106
+        ]
+      ],
+      "dimensions_m": [
+        0.38392871618270874,
+        0.1899999976158142,
+        0.44259266555309296
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP07-2-can",
+      "file": "assets/props/CP07-2-can.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 26160,
+      "sha256": "743a7a00e0d2dd52149fd07f9163aedc62e5b5851ef4b1bf1b68f98932639889",
+      "source": "project-original procedural geometry: assets/props/CP07-2-can.glb",
+      "triangles": 508,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.09200000017881393,
+          0,
+          -0.09200000017881393
+        ],
+        [
+          0.09200000017881393,
+          0.30649998784065247,
+          0.09200000017881393
+        ]
+      ],
+      "dimensions_m": [
+        0.18400000035762787,
+        0.30649998784065247,
+        0.18400000035762787
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP07-3-tissue",
+      "file": "assets/props/CP07-3-tissue.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 3092,
+      "sha256": "ac2a6efd42191fd9f1e0b75a915594bb88bc28370616085f9f2fd4fe9a4d7ef9",
+      "source": "project-original procedural geometry: assets/props/CP07-3-tissue.glb",
+      "triangles": 52,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.20000000298023224,
+          0.009999999776482582,
+          -0.14000000059604645
+        ],
+        [
+          0.20999999344348907,
+          0.0949999988079071,
+          0.15000000596046448
+        ]
+      ],
+      "dimensions_m": [
+        0.4099999964237213,
+        0.08499999903142452,
+        0.2900000065565109
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP07-4-leaf",
+      "file": "assets/props/CP07-4-leaf.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 4204,
+      "sha256": "f4fae5fb5484e117dbdbb10a27484d936e248bbd3ea0f9bb9c6a35bbb2c9073b",
+      "source": "project-original procedural geometry: assets/props/CP07-4-leaf.glb",
+      "triangles": 48,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.22013629972934723,
+          0.012000000104308128,
+          -0.09000000357627869
+        ],
+        [
+          0.22013629972934723,
+          0.05999999865889549,
+          0.09000000357627869
+        ]
+      ],
+      "dimensions_m": [
+        0.44027259945869446,
+        0.047999998554587364,
+        0.18000000715255737
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP07-5-bottle",
+      "file": "assets/props/CP07-5-bottle.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 9664,
+      "sha256": "4a8fb1bbee76c2c4a497ceb06fc6cf4ab872160514921ea10b615f353193c989",
+      "source": "project-original procedural geometry: assets/props/CP07-5-bottle.glb",
+      "triangles": 300,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.08500000089406967,
+          0,
+          -0.08500000089406967
+        ],
+        [
+          0.08500000089406967,
+          0.38999998569488525,
+          0.08500000089406967
+        ]
+      ],
+      "dimensions_m": [
+        0.17000000178813934,
+        0.38999998569488525,
+        0.17000000178813934
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP07-6-paper",
+      "file": "assets/props/CP07-6-paper.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 1228,
+      "sha256": "a8d44b35adb34785ba380b629b33a96dd25716df55d8d002aa6bfad13decde89",
+      "source": "project-original procedural geometry: assets/props/CP07-6-paper.glb",
+      "triangles": 4,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.20000000298023224,
+          0.009999999776482582,
+          -0.14000000059604645
+        ],
+        [
+          0.20999999344348907,
+          0.05999999865889549,
+          0.15000000596046448
+        ]
+      ],
+      "dimensions_m": [
+        0.4099999964237213,
+        0.04999999888241291,
+        0.2900000065565109
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP08-organic",
+      "file": "assets/props/CP08-organic.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 67128,
+      "sha256": "7fcd1ecc9d0f0f383b72380c34a98fdc915e24624869518977bb60f3c904a7db",
+      "source": "project-original procedural geometry: assets/props/CP08-organic.glb",
+      "triangles": 752,
+      "meshes": 1,
+      "materials": 3,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.5699999928474426,
+          0,
+          -0.4749999940395355
+        ],
+        [
+          0.5699999928474426,
+          1.4210000038146973,
+          0.4749999940395355
+        ]
+      ],
+      "dimensions_m": [
+        1.1399999856948853,
+        1.4210000038146973,
+        0.949999988079071
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP08-recycle",
+      "file": "assets/props/CP08-recycle.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 67140,
+      "sha256": "0298d60aacf53e97d759dc85ac732c38174adb3effda2f0ee2cb48f2774ab6c2",
+      "source": "project-original procedural geometry: assets/props/CP08-recycle.glb",
+      "triangles": 752,
+      "meshes": 1,
+      "materials": 3,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.5699999928474426,
+          0,
+          -0.4749999940395355
+        ],
+        [
+          0.5699999928474426,
+          1.4210000038146973,
+          0.4749999940395355
+        ]
+      ],
+      "dimensions_m": [
+        1.1399999856948853,
+        1.4210000038146973,
+        0.949999988079071
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP08-remaining",
+      "file": "assets/props/CP08-remaining.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 66200,
+      "sha256": "f44376e76bf368ef642af7637f29eaad87c8224de59651a20c68d8c30e52b847",
+      "source": "project-original procedural geometry: assets/props/CP08-remaining.glb",
+      "triangles": 752,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.5699999928474426,
+          0,
+          -0.4749999940395355
+        ],
+        [
+          0.5699999928474426,
+          1.4210000038146973,
+          0.4749999940395355
+        ]
+      ],
+      "dimensions_m": [
+        1.1399999856948853,
+        1.4210000038146973,
+        0.949999988079071
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP09-label",
+      "file": "assets/props/CP09-label.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 19204,
+      "sha256": "e152a035d48cd4371edad2d24ea3fa1bc1043e02cd6fe8770cbeaedb9f816f6e",
+      "source": "project-original procedural geometry: assets/props/CP09-label.glb",
+      "triangles": 232,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.375,
+          0,
+          -0.017500000074505806
+        ],
+        [
+          0.375,
+          0.5049999952316284,
+          0.017500000074505806
+        ]
+      ],
+      "dimensions_m": [
+        0.75,
+        0.5049999952316284,
+        0.03500000014901161
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP10a-broadleaf-LOD1",
+      "file": "assets/props/CP10a-broadleaf-LOD1.glb",
+      "category": "props",
+      "default_enabled": false,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 198624,
+      "sha256": "b1b651e162b11bbf0bc25386f4379f9e32f6c4634e4184fe39a80743f6d37749",
+      "source": "project-original procedural geometry: assets/props/CP10a-broadleaf-LOD1.glb",
+      "triangles": 4007,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -6.954412937164307,
+          -0.045431751757860184,
+          -6.384671211242676
+        ],
+        [
+          7.547280788421631,
+          10.717168807983398,
+          6.428951740264893
+        ]
+      ],
+      "dimensions_m": [
+        14.501693725585938,
+        10.762600559741259,
+        12.813622951507568
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP10a-broadleaf",
+      "file": "assets/props/CP10a-broadleaf.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 279784,
+      "sha256": "605cd30c5fbf1d53544579c07214bd1a0aaf4e3439bfb29e52d9ddc95d2296c2",
+      "source": "project-original procedural geometry: assets/props/CP10a-broadleaf.glb",
+      "triangles": 6264,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -6.954412937164307,
+          -0.037667810916900635,
+          -6.3701300621032715
+        ],
+        [
+          7.547280788421631,
+          10.717168807983398,
+          6.428951740264893
+        ]
+      ],
+      "dimensions_m": [
+        14.501693725585938,
+        10.754836618900299,
+        12.799081802368164
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP10b-chair",
+      "file": "assets/props/CP10b-chair.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 73856,
+      "sha256": "6a690d451958304108115a974240c3ca5fc76f570759c21cad9c4b0b159404bb",
+      "source": "project-original procedural geometry: assets/props/CP10b-chair.glb",
+      "triangles": 1016,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.4099999964237213,
+          -0.004234440624713898,
+          -0.3817439377307892
+        ],
+        [
+          0.4099999964237213,
+          1.0540401935577393,
+          0.3800000250339508
+        ]
+      ],
+      "dimensions_m": [
+        0.8199999928474426,
+        1.0582746341824532,
+        0.76174396276474
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP10c-glass",
+      "file": "assets/props/CP10c-glass.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 54844,
+      "sha256": "364f69b09ae6ccff51dc8c4da3ee8ae9d51522bc89e8a2f03a2193f021a924e8",
+      "source": "project-original procedural geometry: assets/props/CP10c-glass.glb",
+      "triangles": 884,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.07500000298023224,
+          0,
+          -0.07500000298023224
+        ],
+        [
+          0.07500000298023224,
+          0.1599999964237213,
+          0.07500000298023224
+        ]
+      ],
+      "dimensions_m": [
+        0.15000000596046448,
+        0.1599999964237213,
+        0.15000000596046448
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP10c-seeds",
+      "file": "assets/props/CP10c-seeds.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 64644,
+      "sha256": "31de304171534f56a270a2b8a15d5831d3ea10538b7961a1892cd56db82c49c4",
+      "source": "project-original procedural geometry: assets/props/CP10c-seeds.glb",
+      "triangles": 1872,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.14000000059604645,
+          0,
+          -0.14000000059604645
+        ],
+        [
+          0.14000000059604645,
+          0.03800000250339508,
+          0.14000000059604645
+        ]
+      ],
+      "dimensions_m": [
+        0.2800000011920929,
+        0.03800000250339508,
+        0.2800000011920929
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP10c-table",
+      "file": "assets/props/CP10c-table.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 15760,
+      "sha256": "abc32e0d510c306879e4819c08f6227af82a2334eb51c4642fee9d797b448633",
+      "source": "project-original procedural geometry: assets/props/CP10c-table.glb",
+      "triangles": 496,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.8500000238418579,
+          -0.003168553113937378,
+          -0.8500000238418579
+        ],
+        [
+          0.8500000238418579,
+          0.7900000214576721,
+          0.8500000238418579
+        ]
+      ],
+      "dimensions_m": [
+        1.7000000476837158,
+        0.7931685745716095,
+        1.7000000476837158
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "L01-light-v1",
+      "file": "assets/props/L01-light-v1.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 34072,
+      "sha256": "bf9e3ece6df7b8b02600363ccc22d80ddef3618c64cd53ab446ad666a94fc258",
+      "source": "project-original procedural geometry: assets/props/L01-light-v1.glb",
+      "triangles": 1281,
+      "meshes": 1,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Sparse use / distance QA needed"
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.762759804725647,
+          -0.06023047864437103,
+          -0.4907449185848236
+        ],
+        [
+          0.7744901776313782,
+          0.43485379219055176,
+          0.7677790522575378
+        ]
+      ],
+      "dimensions_m": [
+        1.5372499823570251,
+        0.4950842708349228,
+        1.2585239708423615
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "L02-light-v1",
+      "file": "assets/props/L02-light-v1.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 39864,
+      "sha256": "be0cedb7768b6cae33e61dd884245a1ff4f328956611f38c08ac11162d2541d8",
+      "source": "project-original procedural geometry: assets/props/L02-light-v1.glb",
+      "triangles": 1477,
+      "meshes": 1,
+      "materials": 3,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Sparse use / distance QA needed"
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.762759804725647,
+          -0.06023047864437103,
+          -0.8043277263641357
+        ],
+        [
+          0.7744901776313782,
+          0.811014711856842,
+          0.7677790522575378
+        ]
+      ],
+      "dimensions_m": [
+        1.5372499823570251,
+        0.8712451905012131,
+        1.5721067786216736
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "L03-light-v1",
+      "file": "assets/props/L03-light-v1.glb",
+      "category": "props",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 50892,
+      "sha256": "4283267513533d928569c92602adcce84ec9868673744b3938f6dd405f4d14f2",
+      "source": "project-original procedural geometry: assets/props/L03-light-v1.glb",
+      "triangles": 1775,
+      "meshes": 1,
+      "materials": 4,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Sparse use / distance QA needed"
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -1.1733711957931519,
+          -0.06023047864437103,
+          -0.8047749400138855
+        ],
+        [
+          0.7744901776313782,
+          0.9141660928726196,
+          0.7677790522575378
+        ]
+      ],
+      "dimensions_m": [
+        1.94786137342453,
+        0.9743965715169907,
+        1.5725539922714233
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP02-koi-gold",
+      "file": "assets/koi/CP02-koi-gold.glb",
+      "category": "koi",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 51984,
+      "sha256": "2afeac2b757a4dc4b55a658908493d880d6b246702c643fd86aef848f1f53958",
+      "source": "project-original procedural geometry: assets/koi/CP02-koi-gold.glb",
+      "triangles": 1142,
+      "meshes": 1,
+      "materials": 3,
+      "clips": [
+        "swim"
+      ],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "One koi geometry, three colorways; swim only. Front -Z. Jump/water integration excluded."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.2899999718027961,
+          -0.13529997893046122,
+          -0.6128170435588184
+        ],
+        [
+          0.2899999718027961,
+          0.25000000342285433,
+          0.7199999914722605
+        ]
+      ],
+      "dimensions_m": [
+        0.5799999436055921,
+        0.38529998235331553,
+        1.3328170350310788
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [
+          {
+            "name": "swim",
+            "duration": 2.0416667461395264,
+            "samples": 9,
+            "finite": true,
+            "minY": -0.13530002135573413,
+            "maxMinY": -0.13529997893046122
+          }
+        ],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP02-koi-white-red-black",
+      "file": "assets/koi/CP02-koi-white-red-black.glb",
+      "category": "koi",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 69880,
+      "sha256": "de1c17d753be9025b5f4e9e5f578bd74c8cc37a247761f2627ede630ea4aab28",
+      "source": "project-original procedural geometry: assets/koi/CP02-koi-white-red-black.glb",
+      "triangles": 1142,
+      "meshes": 1,
+      "materials": 4,
+      "clips": [
+        "swim"
+      ],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "One koi geometry, three colorways; swim only. Front -Z. Jump/water integration excluded."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.2899999718027961,
+          -0.13529997893046122,
+          -0.6128170435588184
+        ],
+        [
+          0.2899999718027961,
+          0.25000000342285433,
+          0.7199999914722605
+        ]
+      ],
+      "dimensions_m": [
+        0.5799999436055921,
+        0.38529998235331553,
+        1.3328170350310788
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [
+          {
+            "name": "swim",
+            "duration": 2.0416667461395264,
+            "samples": 9,
+            "finite": true,
+            "minY": -0.13530002135573413,
+            "maxMinY": -0.13529997893046122
+          }
+        ],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP02-koi-white-red",
+      "file": "assets/koi/CP02-koi-white-red.glb",
+      "category": "koi",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 58236,
+      "sha256": "f94fca0f6a0018bce4cd14be45a5c1948da479461d838d6691c971516c1c7b3a",
+      "source": "project-original procedural geometry: assets/koi/CP02-koi-white-red.glb",
+      "triangles": 1142,
+      "meshes": 1,
+      "materials": 3,
+      "clips": [
+        "swim"
+      ],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "One koi geometry, three colorways; swim only. Front -Z. Jump/water integration excluded."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.2899999718027961,
+          -0.13529997893046122,
+          -0.6128170435588184
+        ],
+        [
+          0.2899999718027961,
+          0.25000000342285433,
+          0.7199999914722605
+        ]
+      ],
+      "dimensions_m": [
+        0.5799999436055921,
+        0.38529998235331553,
+        1.3328170350310788
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [
+          {
+            "name": "swim",
+            "duration": 2.0416667461395264,
+            "samples": 9,
+            "finite": true,
+            "minY": -0.13530002135573413,
+            "maxMinY": -0.13529997893046122
+          }
+        ],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "P01-r2",
+      "file": "assets/retained/P01-r2.glb",
+      "category": "retained",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 18300,
+      "sha256": "52e3ca33f28be0f71603bf2d4cbfbe6de7cc5dc00bdcdd8286a91a8fc7ecfb70",
+      "source": "project-original procedural geometry: assets/retained/P01-r2.glb",
+      "triangles": 716,
+      "meshes": 3,
+      "materials": 3,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Retained prior selected asset; original bytes"
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.3149999976158142,
+          0,
+          -0.3149999976158142
+        ],
+        [
+          0.3149999976158142,
+          0.2800000011920929,
+          0.3149999976158142
+        ]
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.2800000011920929,
+        0.6299999952316284
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "P02",
+      "file": "assets/retained/P02.glb",
+      "category": "retained",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 93804,
+      "sha256": "3031c454224683e51db3da3fccf4874bd2f7f1e0f86b75778a22e22b9a1e1263",
+      "source": "project-original procedural geometry: assets/retained/P02.glb",
+      "triangles": 1128,
+      "meshes": 6,
+      "materials": 2,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Retained prior selected asset; original bytes"
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.3774999938905239,
+          0,
+          -0.22750000283122063
+        ],
+        [
+          0.3774999938905239,
+          0.26500000059604645,
+          0.22750000283122063
+        ]
+      ],
+      "dimensions_m": [
+        0.7549999877810478,
+        0.26500000059604645,
+        0.45500000566244125
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "B01",
+      "file": "assets/retained/B01.glb",
+      "category": "retained",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 58548,
+      "sha256": "220aac2c6d40614063e5351f599a034273b0bc09a8863430731b981a2b2256ac",
+      "source": "project-original procedural geometry: assets/retained/B01.glb",
+      "triangles": 1988,
+      "meshes": 15,
+      "materials": 3,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Retained prior selected asset; original bytes"
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -1.2799999713897705,
+          0,
+          -1.2799999713897705
+        ],
+        [
+          1.2799999713897705,
+          0.26500000804662704,
+          1.2799999713897705
+        ]
+      ],
+      "dimensions_m": [
+        2.559999942779541,
+        0.26500000804662704,
+        2.559999942779541
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "S01-r2",
+      "file": "assets/retained/S01-r2.glb",
+      "category": "retained",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 335956,
+      "sha256": "3919f92951c5299c8602ab454b68e8aebadf714f13720fa33614c40557de439c",
+      "source": "project-original procedural geometry: assets/retained/S01-r2.glb",
+      "triangles": 7860,
+      "meshes": 17,
+      "materials": 6,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Retained prior selected asset; original bytes",
+        "Keep dynamic board content separate; do not bake user messages into this frame."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -1.6499999478459357,
+          0,
+          -0.20000000298023224
+        ],
+        [
+          1.6499999538064003,
+          2.9400001130998135,
+          0.20000000298023224
+        ]
+      ],
+      "dimensions_m": [
+        3.299999901652336,
+        2.9400001130998135,
+        0.4000000059604645
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "T01",
+      "file": "assets/retained/T01.glb",
+      "category": "retained",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 107400,
+      "sha256": "b3d44e5a610bdce09081038a02aa077de98c5552a5acadc694950d20830341de",
+      "source": "project-original procedural geometry: assets/retained/T01.glb",
+      "triangles": 4052,
+      "meshes": 20,
+      "materials": 4,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Retained prior selected asset; original bytes",
+        "Scene density and phone performance not tested; use sparingly."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -1.887085667252542,
+          -0.0070337386582663974,
+          -2.4768561720848083
+        ],
+        [
+          2.1233620643615723,
+          5.399900555610657,
+          2.3701072335243225
+        ]
+      ],
+      "dimensions_m": [
+        4.010447731614114,
+        5.406934294268924,
+        4.846963405609131
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "T02",
+      "file": "assets/retained/T02.glb",
+      "category": "retained",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 107432,
+      "sha256": "2ccf0362b79d5911eb61a46084767d112402623a90f65b336d7c86bdf15e8e4c",
+      "source": "project-original procedural geometry: assets/retained/T02.glb",
+      "triangles": 4052,
+      "meshes": 20,
+      "materials": 4,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Retained prior selected asset; original bytes",
+        "Scene density and phone performance not tested; use sparingly."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -1.3912413823604588,
+          -0.005091738619330322,
+          -2.043313503265381
+        ],
+        [
+          1.5743556022644043,
+          7.730000138282776,
+          1.9605830907821655
+        ]
+      ],
+      "dimensions_m": [
+        2.965596984624863,
+        7.735091876902106,
+        4.003896594047546
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "T03",
+      "file": "assets/retained/T03.glb",
+      "category": "retained",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 107208,
+      "sha256": "3ccf817b72b9abf9c797d519d158e97305c81b75a55ca5e6328d9dfda5f66f14",
+      "source": "project-original procedural geometry: assets/retained/T03.glb",
+      "triangles": 4052,
+      "meshes": 20,
+      "materials": 4,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Retained prior selected asset; original bytes",
+        "Scene density and phone performance not tested; use sparingly."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -2.2750656437873857,
+          -0.009206819135900268,
+          -3.061255693435669
+        ],
+        [
+          2.5940388441085815,
+          3.9938716888427734,
+          2.917144775390625
+        ]
+      ],
+      "dimensions_m": [
+        4.869104487895967,
+        4.003078507978674,
+        5.978400468826294
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP03-B01-pink-bloom",
+      "file": "assets/lotus/CP03-B01-pink-bloom.glb",
+      "category": "lotus",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 269740,
+      "sha256": "9a2e71d5ec0d68ac6a0d3c9caa9437926df9e78e0563ecc4072bafe1670a037f",
+      "source": "project-original procedural geometry: assets/lotus/CP03-B01-pink-bloom.glb",
+      "triangles": 702,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Reusable leaf/bloom/bud; separate from water. Do not replace with handheld F07."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.40778452157974243,
+          0,
+          -0.4206741154193878
+        ],
+        [
+          0.42500001192092896,
+          0.828000009059906,
+          0.4206741154193878
+        ]
+      ],
+      "dimensions_m": [
+        0.8327845335006714,
+        0.828000009059906,
+        0.8413482308387756
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP03-B02-ivory-bloom",
+      "file": "assets/lotus/CP03-B02-ivory-bloom.glb",
+      "category": "lotus",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 269744,
+      "sha256": "3b5a7c029b53f0ecfe3bc5f8c494bc065bfb7349914229c0082dc3c5b30c9283",
+      "source": "project-original procedural geometry: assets/lotus/CP03-B02-ivory-bloom.glb",
+      "triangles": 702,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Reusable leaf/bloom/bud; separate from water. Do not replace with handheld F07."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.40778452157974243,
+          0,
+          -0.4206741154193878
+        ],
+        [
+          0.42500001192092896,
+          0.777999997138977,
+          0.4206741154193878
+        ]
+      ],
+      "dimensions_m": [
+        0.8327845335006714,
+        0.777999997138977,
+        0.8413482308387756
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP03-L01-leaf-single",
+      "file": "assets/lotus/CP03-L01-leaf-single.glb",
+      "category": "lotus",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 250600,
+      "sha256": "b1f0851d308efb39a5c9aff9acb808bfabce730a699c34a111a8252054acef59",
+      "source": "project-original procedural geometry: assets/lotus/CP03-L01-leaf-single.glb",
+      "triangles": 224,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Reusable leaf/bloom/bud; separate from water. Do not replace with handheld F07."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.7842371463775635,
+          0.02500000037252903,
+          -0.800279974937439
+        ],
+        [
+          0.7940400242805481,
+          0.08500000089406967,
+          0.7674676775932312
+        ]
+      ],
+      "dimensions_m": [
+        1.5782771706581116,
+        0.06000000052154064,
+        1.5677476525306702
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP03-L02-leaf-pair",
+      "file": "assets/lotus/CP03-L02-leaf-pair.glb",
+      "category": "lotus",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 256072,
+      "sha256": "fab0a5ca720ec65e1954d2ece279880cb7b6ad76bc7fbc01bc8595474a4cab93",
+      "source": "project-original procedural geometry: assets/lotus/CP03-L02-leaf-pair.glb",
+      "triangles": 448,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Reusable leaf/bloom/bud; separate from water. Do not replace with handheld F07."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -1.1076138019561768,
+          0.02500000037252903,
+          -0.8215810060501099
+        ],
+        [
+          1.0515185594558716,
+          0.08499400317668915,
+          0.7196280360221863
+        ]
+      ],
+      "dimensions_m": [
+        2.1591323614120483,
+        0.05999400280416012,
+        1.5412090420722961
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP03-L03-leaf-trio",
+      "file": "assets/lotus/CP03-L03-leaf-trio.glb",
+      "category": "lotus",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 261544,
+      "sha256": "99a05d35bc5f5d1249d64735f3ded70561093277e0cb56b9808db25216c2df1d",
+      "source": "project-original procedural geometry: assets/lotus/CP03-L03-leaf-trio.glb",
+      "triangles": 672,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Reusable leaf/bloom/bud; separate from water. Do not replace with handheld F07."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -1.1435307264328003,
+          0.02500000037252903,
+          -1.027589201927185
+        ],
+        [
+          1.1534068584442139,
+          0.08499850332736969,
+          1.0898926258087158
+        ]
+      ],
+      "dimensions_m": [
+        2.296937584877014,
+        0.05999850295484066,
+        2.117481827735901
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP03-N01-bud",
+      "file": "assets/lotus/CP03-N01-bud.glb",
+      "category": "lotus",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 253500,
+      "sha256": "691a26f078972ab036101185c80d7d35601af4d9c825d36a7a288b6ee9b80b7c",
+      "source": "project-original procedural geometry: assets/lotus/CP03-N01-bud.glb",
+      "triangles": 312,
+      "meshes": 1,
+      "materials": 1,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Reusable leaf/bloom/bud; separate from water. Do not replace with handheld F07."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.08682187646627426,
+          0,
+          -0.09187500178813934
+        ],
+        [
+          0.09692812711000443,
+          0.7599999904632568,
+          0.09187500178813934
+        ]
+      ],
+      "dimensions_m": [
+        0.1837500035762787,
+        0.7599999904632568,
+        0.1837500035762787
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP01-recovered-LOD0",
+      "file": "assets/sakura/CP01-recovered-LOD0.glb",
+      "category": "sakura",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 2609100,
+      "sha256": "2bf7bc0715fd3c6c6480694bef8850710b9b81892f0f8b851ff75df22bb5c966",
+      "source": "project-original procedural geometry: assets/sakura/CP01-recovered-LOD0.glb",
+      "triangles": 47667,
+      "meshes": 2,
+      "materials": 4,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Approved CP01 Recovery; byte-for-byte preserved. No silhouette edits."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -6.60393762588501,
+          0.001667666481807828,
+          -4.43937349319458
+        ],
+        [
+          6.0124993324279785,
+          8.592036247253418,
+          9.024276733398438
+        ]
+      ],
+      "dimensions_m": [
+        12.616436958312988,
+        8.59036858077161,
+        13.463650226593018
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP01-recovered-LOD1",
+      "file": "assets/sakura/CP01-recovered-LOD1.glb",
+      "category": "sakura",
+      "default_enabled": false,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 1342796,
+      "sha256": "4bc7cdf8706257e4cc779682b95f61474b2bf7716d8be2af3d2e6f438b2494a2",
+      "source": "project-original procedural geometry: assets/sakura/CP01-recovered-LOD1.glb",
+      "triangles": 24217,
+      "meshes": 2,
+      "materials": 4,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Approved CP01 Recovery; byte-for-byte preserved. No silhouette edits."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -6.605714797973633,
+          0.001667666481807828,
+          -4.42232608795166
+        ],
+        [
+          6.127333164215088,
+          8.621071815490723,
+          9.142759323120117
+        ]
+      ],
+      "dimensions_m": [
+        12.73304796218872,
+        8.619404149008915,
+        13.565085411071777
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "CP01-recovered-LOD2",
+      "file": "assets/sakura/CP01-recovered-LOD2.glb",
+      "category": "sakura",
+      "default_enabled": false,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 689920,
+      "sha256": "c2bf4b57f15e23e615d559308a445310d0dfd10c1f188218ee50d79044248ddc",
+      "source": "project-original procedural geometry: assets/sakura/CP01-recovered-LOD2.glb",
+      "triangles": 12127,
+      "meshes": 2,
+      "materials": 4,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Approved CP01 Recovery; byte-for-byte preserved. No silhouette edits."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -6.60028076171875,
+          0.001667666481807828,
+          -4.59298038482666
+        ],
+        [
+          6.100401401519775,
+          8.592933654785156,
+          9.137859344482422
+        ]
+      ],
+      "dimensions_m": [
+        12.700682163238525,
+        8.591265988303348,
+        13.730839729309082
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "H01-proposal-v1-LOD0",
+      "file": "assets/architecture/H01-proposal-v1-LOD0.glb",
+      "category": "architecture",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 585996,
+      "sha256": "1bfaa64932c8e31d5d87fcab220c49a1c9ee996c3ad0800879de25867f2b063c",
+      "source": "project-original procedural geometry: assets/architecture/H01-proposal-v1-LOD0.glb",
+      "triangles": 9364,
+      "meshes": 1,
+      "materials": 8,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "PROPOSED facade, not surveyed. Roof color/location grounded in satellite; exact dimensions inherit model blockout, not measurement.",
+        "Exterior only; preserve existing footprint, access and colliders. H02 three floors are a design choice."
+      ],
+      "placement": {
+        "world_xz": [
+          170,
+          -111
+        ],
+        "front": "+Z",
+        "scale": 1,
+        "y": "inherit existing map ground height"
+      },
+      "measured_bounds_gltf_xyz": [
+        [
+          -14.920000076293945,
+          0,
+          -10.120000839233398
+        ],
+        [
+          14.920000076293945,
+          7.700000286102295,
+          11.899999618530273
+        ]
+      ],
+      "dimensions_m": [
+        29.84000015258789,
+        7.700000286102295,
+        22.020000457763672
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "H01-proposal-v1-LOD1",
+      "file": "assets/architecture/H01-proposal-v1-LOD1.glb",
+      "category": "architecture",
+      "default_enabled": false,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 134036,
+      "sha256": "63b2056b5c0798e94f73f94bdfeab147f74c5b4c3622be2fc1724c86bf746526",
+      "source": "project-original procedural geometry: assets/architecture/H01-proposal-v1-LOD1.glb",
+      "triangles": 1916,
+      "meshes": 1,
+      "materials": 6,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "PROPOSED facade, not surveyed. Roof color/location grounded in satellite; exact dimensions inherit model blockout, not measurement.",
+        "Exterior only; preserve existing footprint, access and colliders. H02 three floors are a design choice."
+      ],
+      "placement": {
+        "world_xz": [
+          170,
+          -111
+        ],
+        "front": "+Z",
+        "scale": 1,
+        "y": "inherit existing map ground height"
+      },
+      "measured_bounds_gltf_xyz": [
+        [
+          -14.920000076293945,
+          0,
+          -10.120000839233398
+        ],
+        [
+          14.920000076293945,
+          7.700000286102295,
+          11.899999618530273
+        ]
+      ],
+      "dimensions_m": [
+        29.84000015258789,
+        7.700000286102295,
+        22.020000457763672
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "H02-proposal-v1-LOD0",
+      "file": "assets/architecture/H02-proposal-v1-LOD0.glb",
+      "category": "architecture",
+      "default_enabled": true,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 778904,
+      "sha256": "e9c9de4ae4a338b136704e078abae61f30ff819ac9524c4e7edb64f7dd4c10fe",
+      "source": "project-original procedural geometry: assets/architecture/H02-proposal-v1-LOD0.glb",
+      "triangles": 12104,
+      "meshes": 1,
+      "materials": 8,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "PROPOSED facade, not surveyed. Roof color/location grounded in satellite; exact dimensions inherit model blockout, not measurement.",
+        "Exterior only; preserve existing footprint, access and colliders. H02 three floors are a design choice."
+      ],
+      "placement": {
+        "world_xz": [
+          147,
+          -184
+        ],
+        "front": "+Z",
+        "scale": 1,
+        "y": "inherit existing map ground height"
+      },
+      "measured_bounds_gltf_xyz": [
+        [
+          -16,
+          0,
+          -10
+        ],
+        [
+          16,
+          14.700000762939453,
+          10
+        ]
+      ],
+      "dimensions_m": [
+        32,
+        14.700000762939453,
+        20
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "H02-proposal-v1-LOD1",
+      "file": "assets/architecture/H02-proposal-v1-LOD1.glb",
+      "category": "architecture",
+      "default_enabled": false,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 272344,
+      "sha256": "737200e8b74228c25c9ae3a3771be12c9a5be8b508ace0cdc137370ae783a7ef",
+      "source": "project-original procedural geometry: assets/architecture/H02-proposal-v1-LOD1.glb",
+      "triangles": 3884,
+      "meshes": 1,
+      "materials": 5,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "PROPOSED facade, not surveyed. Roof color/location grounded in satellite; exact dimensions inherit model blockout, not measurement.",
+        "Exterior only; preserve existing footprint, access and colliders. H02 three floors are a design choice."
+      ],
+      "placement": {
+        "world_xz": [
+          147,
+          -184
+        ],
+        "front": "+Z",
+        "scale": 1,
+        "y": "inherit existing map ground height"
+      },
+      "measured_bounds_gltf_xyz": [
+        [
+          -16,
+          0,
+          -10
+        ],
+        [
+          16,
+          14.700000762939453,
+          10
+        ]
+      ],
+      "dimensions_m": [
+        32,
+        14.700000762939453,
+        20
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    },
+    {
+      "id": "A00-display-reference",
+      "file": "assets/display/held-a-prototype-v2.glb",
+      "category": "display",
+      "default_enabled": false,
+      "integration_status": "local-import-tested; application integration pending",
+      "bytes": 690936,
+      "sha256": "9dd7e60d717e6d1aad16056b6c6439470eac4f445b9f901932f35f367194b351",
+      "source": "project-original procedural geometry: assets/display/held-a-prototype-v2.glb",
+      "triangles": 24544,
+      "meshes": 8,
+      "materials": 12,
+      "clips": [],
+      "up_axis": "+Y",
+      "units": "metres",
+      "notes": [
+        "Reference/display only. Never use for dynamic picked flowers or enable as default player bouquet."
+      ],
+      "placement": null,
+      "measured_bounds_gltf_xyz": [
+        [
+          -0.2320118099451065,
+          -0.18500003218650818,
+          -0.11649161577224731
+        ],
+        [
+          0.21148987114429474,
+          0.5509999990463257,
+          0.1589999943971634
+        ]
+      ],
+      "dimensions_m": [
+        0.44350168108940125,
+        0.7360000312328339,
+        0.2754916101694107
+      ],
+      "qa": {
+        "engine_import": true,
+        "finite_vertices": true,
+        "animation_checks": [],
+        "physical_phone": false,
+        "production_scene": false
+      }
+    }
+  ],
+  "global_limits": [
+    "No main game changes, push or deployment",
+    "Desktop software-WebGL local import/animation QA; no physical phone benchmark",
+    "Character player hold and interchangeable full customization are excluded",
+    "Architecture facades are proposed designs, not verified real facades"
+  ],
+  "glb_count": 54,
+  "auto_spawn": false,
+  "character_policy": {
+    "enabled": false,
+    "removed": "Owner rejected all newly generated characters; files removed 2026-11-16; use existing procedural avatars only."
+  },
+  "lod_groups": [
+    {
+      "id": "CP01-approved",
+      "levels": [
+        "CP01-recovered-LOD0",
+        "CP01-recovered-LOD1",
+        "CP01-recovered-LOD2"
+      ],
+      "automatic_distance_thresholds": null
+    },
+    {
+      "id": "H01-proposed",
+      "levels": [
+        "H01-proposal-v1-LOD0",
+        "H01-proposal-v1-LOD1"
+      ],
+      "automatic_distance_thresholds": null
+    },
+    {
+      "id": "H02-proposed",
+      "levels": [
+        "H02-proposal-v1-LOD0",
+        "H02-proposal-v1-LOD1"
+      ],
+      "automatic_distance_thresholds": null
+    },
+    {
+      "id": "CP10a",
+      "levels": [
+        "CP10a-broadleaf",
+        "CP10a-broadleaf-LOD1"
+      ],
+      "automatic_distance_thresholds": null
+    }
+  ],
+  "species_ids": {
+    "rose": "F01",
+    "daisy": "F02",
+    "sunflower": "F03",
+    "cosmos": "F04",
+    "lavender": "F05",
+    "tulip": "F06",
+    "lotus": "F07",
+    "chrysanthemum": "F08"
+  }
+}

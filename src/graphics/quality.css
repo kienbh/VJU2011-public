@@ -1,0 +1,4 @@
+.graphics-choice{display:grid;gap:8px;margin-top:20px;font-size:16px}
+.graphics-choice select{min-height:44px;width:100%;font:inherit;padding:8px;color:#294c43;background:#fff8e8;border:1px solid #8a9c91;border-radius:6px}
+.graphics-choice small{font-size:14px;line-height:1.5}
+.graphics-choice select:focus-visible{outline:3px solid #b87926;outline-offset:2px}

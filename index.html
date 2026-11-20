@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#8d4139" />
+    <meta name="description" content="Ghé sân trường, gửi lời cảm ơn thầy cô và cán bộ nhân viên VJU. Không gian tri ân ngày 20/11/2026 của Trường Đại học Việt Nhật, VNU." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23193e47'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial' font-size='21' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <title>Một mùa tri ân · 20/11/2026 | Trường Đại học Việt Nhật, VNU</title>
+  </head>
+  <body>
+    <style>
+      html,body{margin:0;background:#fff8ec;color:#294543}
+      #vju-boot{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;padding:24px;background:#fff8ec;font:16px/1.6 system-ui,sans-serif;overflow:auto}
+      #vju-boot[hidden]{display:none}#vju-boot>div{width:min(100%,440px)}#vju-boot h2{font-size:26px;line-height:1.3;margin:8px 0 24px;color:#913f37}
+      #vju-boot p{margin:12px 0}#vju-boot .boot-brand{font-weight:700;letter-spacing:.12em}#vju-boot [lang=ja]{color:#445c58}
+      #vju-boot button{font:inherit;min-height:44px;padding:10px 20px;border:1px solid #294543;border-radius:8px;background:#294543;color:#fff8ec;cursor:pointer}#vju-boot button:focus-visible{outline:3px solid #b75d32;outline-offset:3px}
+    </style>
+    <section id="vju-boot" aria-labelledby="boot-title" aria-busy="true">
+      <div><span class="boot-brand">VJU · 20.11</span><h2 id="boot-title">Đang chuẩn bị campus</h2>
+        <div role="status" aria-live="polite"><p lang="vi" id="boot-vi">Xin hãy kiên nhẫn chờ, hệ thống đang nạp tài nguyên.</p><p lang="ja" id="boot-ja">ただいまデータを読み込んでいます。もうしばらくお待ちください。</p></div>
+        <p id="boot-slow" hidden><span lang="vi">Lần đầu có thể lâu hơn. Bạn có thể tiếp tục chờ hoặc tải lại.</span><br><span lang="ja">初回は時間がかかる場合があります。そのまま待つか、再読み込みしてください。</span></p>
+        <button id="boot-retry" type="button" hidden>Tải lại / 再読み込み</button>
+        <p id="boot-code" hidden></p>
+        <noscript><p lang="vi">Vui lòng bật JavaScript để vào campus.</p><p lang="ja">キャンパスに入るにはJavaScriptを有効にしてください。</p></noscript>
+      </div>
+    </section>
+    <div id="app"></div>
+    <script>
+      (()=>{const root=document.getElementById('vju-boot'),slow=document.getElementById('boot-slow'),retry=document.getElementById('boot-retry'),code=document.getElementById('boot-code');let timer;
+        const delayed=()=>{clearTimeout(timer);timer=setTimeout(()=>{if(!root.hidden){slow.hidden=false;retry.hidden=false;}},20000);};
+        retry.onclick=()=>location.reload();
+        window.__VJU_BOOT__={show(){root.hidden=false;root.setAttribute('aria-busy','true');slow.hidden=true;retry.hidden=true;code.hidden=true;document.getElementById('boot-title').textContent='Đang chuẩn bị campus';document.getElementById('boot-vi').textContent='Xin hãy kiên nhẫn chờ, hệ thống đang nạp tài nguyên.';document.getElementById('boot-ja').textContent='ただいまデータを読み込んでいます。もうしばらくお待ちください。';delayed();},hide(){root.hidden=true;clearTimeout(timer);},fail(reason='ENTRY_LOAD_FAILED'){clearTimeout(timer);root.hidden=false;root.setAttribute('aria-busy','false');slow.hidden=true;document.getElementById('boot-title').textContent='Chưa mở được trang / ページを開けませんでした';document.getElementById('boot-vi').textContent='Có lỗi khi mở ứng dụng. Bấm tải lại để thử lại. Nếu lỗi lặp lại, hãy gửi mã lỗi bên dưới.';document.getElementById('boot-ja').textContent='アプリの起動中にエラーが発生しました。再読み込みしてください。解決しない場合は、下のエラーコードをお知らせください。';code.textContent='Mã lỗi / エラーコード: '+reason;code.hidden=false;retry.hidden=false;}};
+        window.addEventListener('error',event=>{if(event.target instanceof HTMLScriptElement&&event.target.type==='module'){console.error('[VJU STARTUP_FAILED]','ENTRY_LOAD_FAILED');window.__VJU_BOOT__.fail('ENTRY_LOAD_FAILED');}},true);delayed();
+      })();
+    </script>
+  <script type="module" src="/src/entry.ts"></script>
+  </body>
+</html>

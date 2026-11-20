@@ -1,0 +1,136 @@
+/* Shared campus surfaces. Deliberately scoped away from the 3D canvas, entry and review tools. */
+body.student-ui {
+  --campus-paper:#fff9ed;
+  --campus-ink:#253e3a;
+  --campus-muted:#58635a;
+  --campus-line:#cbbd9f;
+  --campus-green:#31584c;
+  --campus-focus:#a95d23;
+}
+body.student-ui :is(.rpg-dialog,.play-dialog,.vju-greetings,.library-room,.phone-menu) {
+  font-size:16px;line-height:1.55;color:var(--campus-ink);
+  background:var(--campus-paper);border-radius:14px;
+  max-height:calc(100dvh - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+}
+body.student-ui :is(.rpg-dialog,.play-dialog,.vju-greetings,.library-room,.phone-menu) :is(button,input,textarea,select) {
+  font-size:16px;line-height:1.4;
+}
+body.student-ui :is(.rpg-dialog,.play-dialog,.vju-greetings,.library-room,.phone-menu) button {
+  min-height:44px;white-space:normal;
+}
+body.student-ui :is(.rpg-dialog,.play-dialog,.vju-greetings,.library-room,.phone-menu) button span {
+  opacity:1;font-size:inherit;margin-right:0;
+}
+body.student-ui :is(.rpg-dialog,.play-dialog,.vju-greetings,.library-room,.phone-menu) :focus-visible {
+  outline:3px solid var(--campus-focus);outline-offset:2px;
+}
+body.student-ui :is(.rpg-dialog,.play-dialog,.vju-greetings,.library-room,.phone-menu) :is(input,textarea,select) {
+  scroll-margin-block:24px;
+}
+body.student-ui :is(.rpg-dialog,.play-dialog,.library-room,.phone-menu) h2 {
+  font-size:24px;line-height:1.3;margin:0;
+}
+body.student-ui .rpg-dialog[open] {display:flex;flex-direction:column;overflow:hidden;}
+body.student-ui .rpg-dialog>header {flex:none;padding:16px 20px;align-items:center;background:var(--campus-paper);gap:12px;}
+body.student-ui .rpg-dialog-body {padding:20px;overflow:auto;min-height:0;overscroll-behavior:contain;}
+body.student-ui .rpg-dialog .rpg-close {flex:none;width:44px;padding:4px;font-size:26px;}
+body.student-ui .rpg-dialog button[aria-pressed=true] {background:var(--campus-green);color:#fff9ed;border:2px solid var(--campus-green);}
+body.student-ui .rpg-dialog :is(.panel-hint,.rpg-help,.avatar-apply span,.rpg-quests span) {font-size:14px;line-height:1.55;color:var(--campus-muted);}
+body.student-ui .rpg-dialog h3 {font-size:16px;margin:0 0 12px;}
+body.student-ui .rpg-camera {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0 0 12px;}
+body.student-ui .rpg-camera button {padding:12px 6px;min-height:52px;font-size:15px;}
+body.student-ui .panel-details {border-block-start:1px solid var(--campus-line);margin-top:20px;}
+body.student-ui .panel-details summary {min-height:52px;align-content:center;cursor:pointer;font-size:16px;font-weight:600;}
+body.student-ui .panel-details p {font-size:14px;color:var(--campus-muted);margin:8px 0 12px;}
+body.student-ui .camera-festival {border-top:1px solid var(--campus-line);padding-top:18px;margin-top:4px;}
+body.student-ui .panel-actions {display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;}
+body.student-ui .panel-actions button {flex:1;min-width:130px;margin:0;}
+body.student-ui .rpg-dialog .rpg-primary {background:var(--campus-green);color:#fff9ed;border-color:var(--campus-green);}
+body.student-ui .rpg-dialog .panel-notice {padding:10px 12px;background:#e8eedf;color:var(--campus-ink);font-size:14px;}
+body.student-ui .graphics-choice {margin:4px 0 16px;gap:6px;font-size:16px;}
+body.student-ui .graphics-choice small {font-size:14px;color:var(--campus-muted);}
+body.student-ui .graphics-presentation {margin:0;padding:0;border:0;gap:8px;}
+body.student-ui .graphics-presentation legend {display:none;}
+body.student-ui .graphics-presentation label {justify-content:space-between;min-height:48px;}
+body.student-ui .graphics-presentation label:has(input) {justify-content:flex-start;}
+body.student-ui .graphics-presentation select {padding:8px;border:1px solid #8a9c91;border-radius:6px;background:#fffdf7;color:var(--campus-ink);}
+body.student-ui .graphics-presentation small {font-size:14px;color:var(--campus-muted);}
+body.student-ui .camera-toggles {display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0 18px;}
+body.student-ui .rpg-motion {display:flex;gap:10px;align-items:center;min-height:48px;margin:0;font-size:15px;cursor:pointer;}
+body.student-ui .rpg-dialog input[type=checkbox] {width:22px;height:22px;flex:none;accent-color:var(--campus-green);}
+body.student-ui .bag-heading {display:flex;align-items:baseline;justify-content:space-between;gap:12px;}
+body.student-ui .bag-heading strong {font-size:20px;}
+body.student-ui .bag-heading>span {white-space:nowrap;color:var(--campus-muted);font-size:14px;}
+body.student-ui .rpg-slots {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:18px 0;}
+body.student-ui .rpg-slots>div {width:100%;min-width:0;max-width:88px;}
+body.student-ui .rpg-pick {gap:8px;}
+body.student-ui .rpg-pick button {display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 4px;font-weight:500;font-size:14px;}
+body.student-ui .rpg-pick svg {width:48px;height:48px;}
+body.student-ui .rpg-dialog :is(.avatar-options label,.avatar-options legend,.avatar-turn span) {font-size:14px;}
+body.student-ui .rpg-dialog .avatar-options label small {display:block;font-size:14px;color:var(--campus-muted);font-weight:400;}
+body.student-ui .rpg-quests li {padding:12px 14px;background:transparent;border-left:0;border-bottom:1px solid var(--campus-line);border-radius:0;margin:0;}
+body.student-ui .rpg-quests li.done {background:#e8eedf;}
+/* Greeting content keeps its red accent, with a quieter header and readable metadata. */
+body.student-ui .vg-header {padding:16px 24px;align-items:center;}
+body.student-ui .vju-greetings h2 {font-size:26px;line-height:1.3;margin:0;}
+body.student-ui .vg-content {padding:20px 24px 24px;}
+body.student-ui .vg-mode {padding:8px 24px;font-size:14px;letter-spacing:0;color:#654b32;}
+body.student-ui .vg-tabs {padding:12px 24px 0;gap:6px;}
+body.student-ui .vju-greetings :is(label,legend,.vg-muted,.vg-choice small,.vg-section-title p,.vg-footer,.vg-signature,.vg-gift,.vg-card-top,.vg-card-bouquet span,.vg-basket-preview p,.vg-attached-bouquet p,.vg-plots small,.vg-flower-choice small,.vg-flower-choice b) {font-size:14px;line-height:1.55;color:#69584b;}
+body.student-ui .vju-greetings label {font-size:16px;color:var(--campus-ink);}
+body.student-ui .vg-card p {color:#49372d;}
+body.student-ui .vg-card-top {flex-wrap:wrap;}
+body.student-ui .vg-buttons {gap:10px;}
+body.student-ui .vg-compose-extras summary {min-height:48px;align-content:center;}
+body.student-ui .vju-greetings .vg-close {font-size:26px;min-width:44px;flex:none;}
+body.student-ui .vju-greetings .vg-footer {padding:12px 24px;}
+/* Other campus tasks use the same text scale and touch targets. */
+body.student-ui .library-room :is(small,footer,.library-eyebrow) {font-size:14px;color:var(--campus-muted);}
+body.student-ui .library-room nav {flex-wrap:wrap;gap:4px;}
+body.student-ui .library-room nav button {padding:8px 10px;font-size:15px;}
+body.student-ui .library-room-scene {display:none;}
+body.student-ui .tea-panel {font-size:16px;line-height:1.5;}
+body.student-ui .tea-panel :is(.tea-input-label,.tea-status) {font-size:14px;line-height:1.5;}
+body.student-ui .tea-panel button {font-size:15px;min-height:44px;}
+body.student-ui .tea-panel input:not([type=checkbox]) {font-size:16px;min-height:44px;}
+body.student-ui .tea-panel .tea-extras {gap:8px;flex-wrap:wrap;}
+body.student-ui .tea-panel .tea-extras label {display:flex;align-items:center;gap:8px;min-height:44px;}
+body.student-ui .tea-panel header {flex-wrap:wrap;}
+body.student-ui .tea-panel header strong {flex:1;min-width:150px;}
+body.student-ui .phone-menu header {border-bottom:1px solid var(--campus-line);padding:12px 16px;}
+body.student-ui .phone-menu nav {padding:8px 16px 20px;gap:8px;}
+body.student-ui .phone-menu .menu-group {grid-column:1/-1;font-size:14px;margin:12px 0 0;color:var(--campus-muted);}
+body.student-ui .phone-menu nav button {background:#fffdf7;border-color:var(--campus-line);text-align:left;}
+body.student-ui .phone-menu nav button:last-child {grid-column:1/-1;}
+body.student-ui .play-dialog summary {min-height:44px;align-content:center;cursor:pointer;}
+body.student-ui .rpg-dock button {font-size:14px;}
+body.student-ui .rpg-dock b {font-size:12px;}
+body.student-ui .play-rest button {font-size:15px;}
+@media(max-width:600px) {
+  body.student-ui :is(.rpg-dialog,.play-dialog,.vju-greetings,.phone-menu) {width:calc(100vw - 16px);max-height:calc(100dvh - 16px - env(safe-area-inset-top) - env(safe-area-inset-bottom));}
+  body.student-ui :is(.rpg-dialog,.play-dialog,.library-room,.phone-menu) h2 {font-size:22px;}
+  body.student-ui .rpg-dialog>header {padding:12px 16px;}
+  body.student-ui .rpg-dialog-body {padding:16px;}
+  body.student-ui .camera-toggles {grid-template-columns:1fr;gap:0;}
+  body.student-ui .rpg-camera button {font-size:14px;}
+  body.student-ui .vju-greetings h2 {font-size:23px;}
+  body.student-ui .vg-header {padding:12px 16px;}
+  body.student-ui .vg-mode {padding:8px 16px;}
+  body.student-ui .vg-tabs {padding:10px 16px 0;}
+  body.student-ui .vg-tabs button {flex:1;padding:8px;font-size:14px;}
+  body.student-ui .vg-content {padding:18px 16px;}
+  body.student-ui .vju-greetings .vg-footer {padding:12px 16px;}
+  body.student-ui .vg-attached-bouquet {flex-wrap:wrap;}
+  body.student-ui .library-room nav {display:grid;grid-template-columns:1fr 1fr;padding:8px 14px;}
+  body.student-ui .library-room header {align-items:center;}
+  body.student-ui .library-room header button {max-width:130px;font-size:14px;}
+  body.student-ui .library-room footer {font-size:14px;}
+  body.student-ui .tea-panel header strong {flex-basis:100%;}
+}
+@media(max-height:500px) {
+  body.student-ui :is(.rpg-dialog,.play-dialog,.library-room)>header {padding:8px 16px;}
+  body.student-ui .rpg-dialog-body {padding:12px 16px;}
+  body.student-ui .vg-header {padding:8px 16px;}
+  body.student-ui .vju-greetings h2 {font-size:22px;}
+  body.student-ui .library-room nav {padding-block:4px;}
+}

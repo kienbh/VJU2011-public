@@ -1,0 +1,69 @@
+.shared-garden-controls{position:fixed;left:50%;bottom:105px;transform:translateX(-50%);z-index:35;background:#193a37ed;color:#fff5df;border:1px solid #a39265;border-radius:10px;padding:10px 14px;max-width:calc(100vw - 24px);font:15px/1.5 'Segoe UI',sans-serif;box-sizing:border-box}
+.shared-garden-controls[hidden]{display:none}.shared-garden-controls strong{display:flex;justify-content:space-between;gap:20px}.shared-garden-controls strong span{color:#c1ffdf;font-variant-numeric:tabular-nums}.shared-garden-controls>div{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.shared-garden-controls small{display:block}
+.shared-garden-controls button,.shared-garden-dialog button,.sg-login{font:inherit;min-height:44px;padding:8px 12px;border:1px solid #a39265;border-radius:6px;background:#fff5df;color:#193a37;cursor:pointer}.shared-garden-controls button:disabled,.shared-garden-dialog button:disabled{opacity:.5;cursor:default}.shared-garden-controls button:focus-visible,.shared-garden-dialog :focus-visible{outline:3px solid #d89f22;outline-offset:3px}
+.shared-garden-dialog{width:min(600px,calc(100vw - 24px));max-height:85dvh;padding:0;background:#fff9ec;color:#243d39;border:1px solid #a39265;border-radius:12px;font:16px/1.55 'Segoe UI',sans-serif;box-sizing:border-box}.shared-garden-dialog::backdrop{background:#122725a8}.shared-garden-dialog header{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;border-bottom:1px solid #d7ccb8}.shared-garden-dialog h2{margin:4px 0;font-size:24px}.sg-body{padding:18px 22px}.sg-count{font-variant-numeric:tabular-nums}.shared-garden-dialog label{display:block;margin:12px 0}.shared-garden-dialog input,.shared-garden-dialog textarea{display:block;width:100%;box-sizing:border-box;font:inherit;padding:10px;color:inherit;border:1px solid #9aab9f;background:white;border-radius:5px}.shared-garden-dialog blockquote{margin:20px 0;font-size:21px}.shared-garden-dialog nav,.sg-mine{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.sg-mine small{display:block}.sg-note{color:#58685b}.sg-login{display:inline-block;text-decoration:none}
+@media(max-width:600px){.shared-garden-controls{bottom:150px;width:calc(100vw - 24px)}.shared-garden-controls strong{font-size:14px}.shared-garden-controls button{padding:6px 9px}.shared-garden-dialog header,.sg-body{padding:14px}.shared-garden-dialog h2{font-size:21px}}
+.shared-garden-dialog[open]{display:flex;flex-direction:column;overflow:hidden}.shared-garden-dialog header{flex-shrink:0}.shared-garden-dialog .sg-body{overflow:auto;overscroll-behavior:contain;min-height:0}.shared-garden-dialog [data-close]{min-width:44px;flex-shrink:0}
+
+/* A focused planting form; browsing and page controls live on their own screen. */
+body.student-ui .shared-garden-dialog {
+  width:min(560px,calc(100vw - 16px));max-height:calc(100dvh - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  background:#fff9ed;color:#253e3a;font:16px/1.5 'Segoe UI',sans-serif;
+}
+body.student-ui .shared-garden-dialog header {padding:14px 20px;gap:12px;}
+body.student-ui .shared-garden-dialog h2 {font-size:24px;line-height:1.3;margin:0;}
+body.student-ui .shared-garden-dialog button {font-size:16px;line-height:1.4;min-height:44px;white-space:normal;}
+body.student-ui .shared-garden-dialog [data-close] {background:transparent;border:0;font-size:26px;padding:4px;width:44px;}
+body.student-ui .shared-garden-dialog .sg-body {padding:18px 20px;}
+body.student-ui .shared-garden-dialog .sg-bouquet {display:flex;align-items:center;gap:20px;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #d7ccb8;}
+body.student-ui .shared-garden-dialog .sg-bouquet svg {width:110px;height:100px;flex:none;margin:0;}
+body.student-ui .shared-garden-dialog .sg-bouquet strong {display:block;font-size:20px;}
+body.student-ui .shared-garden-dialog .sg-bouquet span {display:block;font-size:14px;color:#58635a;margin-top:4px;}
+body.student-ui #shared-garden-plant label {font-size:16px;font-weight:600;margin:0 0 16px;}
+body.student-ui #shared-garden-plant :is(input,textarea) {font-size:16px;line-height:1.5;margin-top:6px;min-height:48px;font-weight:400;scroll-margin-block:16px;}
+body.student-ui #shared-garden-plant textarea {min-height:104px;resize:vertical;}
+body.student-ui #shared-garden-plant input:read-only {background:#eeeade;color:#47594d;}
+body.student-ui .shared-garden-dialog .sg-field-hint {display:block;font-size:14px;font-weight:400;color:#58635a;margin-top:4px;}
+body.student-ui .shared-garden-dialog .sg-signature {border-top:1px solid #d7ccb8;}
+body.student-ui .shared-garden-dialog summary {min-height:48px;align-content:center;font-size:14px;cursor:pointer;overflow-wrap:anywhere;}
+body.student-ui .shared-garden-dialog .sg-submit {flex:none;padding:12px 20px 16px;border-top:1px solid #d7ccb8;background:#f4ecd9;}
+body.student-ui .shared-garden-dialog .sg-submit p {font-size:14px;line-height:1.5;color:#58635a;margin:0 0 10px;}
+body.student-ui .shared-garden-dialog .sg-primary {display:block;width:100%;background:#31584c;border-color:#31584c;color:#fff9ed;font-size:16px;font-weight:600;min-height:48px;}
+body.student-ui .shared-garden-dialog .sg-primary:hover:not(:disabled) {background:#244337;}
+body.student-ui .shared-garden-dialog .sg-primary:disabled {background:#d8ded3;color:#526050;opacity:1;border-color:#8b9987;}
+body.student-ui .shared-garden-dialog .sg-back,body.student-ui .shared-garden-dialog .sg-reload {background:transparent;border-color:transparent;text-decoration:underline;text-underline-offset:4px;font-size:14px;padding:8px 0;}
+body.student-ui .shared-garden-dialog .sg-reload {float:right;}
+body.student-ui .shared-garden-dialog .sg-notice {padding:12px;background:#e6eddf;border-radius:6px;font-size:16px;}
+body.student-ui .shared-garden-dialog .sg-browse-head {display:flex;justify-content:space-between;align-items:center;gap:12px;}
+body.student-ui .shared-garden-dialog .sg-browse-head p {font-size:14px;color:#58635a;}
+body.student-ui .shared-garden-dialog .sg-filters {display:flex;gap:8px;margin:16px 0;}
+body.student-ui .shared-garden-dialog .sg-filters button {flex:1;}
+body.student-ui .shared-garden-dialog .sg-filters [aria-pressed=true] {background:#31584c;color:#fff9ed;border-color:#31584c;}
+body.student-ui .shared-garden-dialog .sg-mine {display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+body.student-ui .shared-garden-dialog .sg-mine button {text-align:left;overflow-wrap:anywhere;}
+body.student-ui .shared-garden-dialog .sg-mine :is(strong,span,small) {display:block;font-size:14px;opacity:1;margin:0;}
+body.student-ui .shared-garden-dialog .sg-mine strong {font-size:16px;margin-bottom:4px;}
+body.student-ui .shared-garden-dialog .sg-pages {display:flex;justify-content:space-between;align-items:center;gap:8px;}
+body.student-ui .shared-garden-dialog .sg-empty {padding:20px 0;}
+body.student-ui .shared-garden-dialog .sg-empty h3 {font-size:22px;margin:0 0 8px;}
+body.student-ui .shared-garden-dialog .sg-pot svg {width:180px;height:150px;margin:0 auto;}
+body.student-ui .shared-garden-dialog .sg-pot :is(h3,p,blockquote) {overflow-wrap:anywhere;}
+body.student-ui .shared-garden-dialog .sg-pot h3 {font-size:20px;}
+body.student-ui .shared-garden-dialog .sg-pot blockquote {font-size:20px;line-height:1.6;white-space:pre-wrap;}
+body.student-ui .shared-garden-dialog .sg-position {font-size:14px;color:#58635a;}
+@media(max-width:600px){
+ body.student-ui .shared-garden-dialog h2 {font-size:22px;}
+ body.student-ui .shared-garden-dialog header {padding:10px 16px;}
+ body.student-ui .shared-garden-dialog .sg-body {padding:16px;}
+ body.student-ui .shared-garden-dialog .sg-submit {padding:10px 16px 14px;}
+ body.student-ui .shared-garden-dialog .sg-bouquet {gap:14px;}
+ body.student-ui .shared-garden-dialog .sg-bouquet svg {width:88px;height:82px;}
+ body.student-ui .shared-garden-dialog .sg-bouquet strong {font-size:18px;}
+}
+@media(max-height:500px){
+ body.student-ui .shared-garden-dialog header {padding:6px 16px;}
+ body.student-ui .shared-garden-dialog .sg-bouquet {display:none;}
+ body.student-ui .shared-garden-dialog .sg-body {padding:12px 16px;}
+ body.student-ui .shared-garden-dialog .sg-submit {padding:8px 16px;}
+ body.student-ui .shared-garden-dialog .sg-submit p {margin-bottom:6px;}
+}

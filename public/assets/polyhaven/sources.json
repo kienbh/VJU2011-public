@@ -1,0 +1,221 @@
+[
+  {
+    "id": "leafy_grass",
+    "kind": "color",
+    "file": "leafy_grass-color.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_diff_1k.jpg",
+    "md5": "0dbc071e91d6905edfcfbe8eb785a1ab",
+    "bytes": 1195394,
+    "license": "CC0-1.0",
+    "page": "https://polyhaven.com/a/leafy_grass",
+    "servedFile": "leafy_grass-color.webp",
+    "servedBytes": 344234,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "2f6a900d00fb60643b312abee5af082cf14e707c6f5ed736171117f9ee1149ac"
+  },
+  {
+    "id": "leafy_grass",
+    "kind": "normal",
+    "file": "leafy_grass-normal.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_nor_gl_1k.jpg",
+    "md5": "8279e096e204ea326d57a318869f99df",
+    "bytes": 1466049,
+    "license": "CC0-1.0",
+    "page": "https://polyhaven.com/a/leafy_grass",
+    "servedFile": "leafy_grass-normal.webp",
+    "servedBytes": 99166,
+    "dimensions": [
+      512,
+      512
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "319775a5be06ba2a416639864500d169d67d11fc8baf93e84bdce5875a52a1a8"
+  },
+  {
+    "id": "leafy_grass",
+    "kind": "roughness",
+    "file": "leafy_grass-roughness.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_rough_1k.jpg",
+    "md5": "05f6bb1383e12b327727d313c5899cf2",
+    "bytes": 511385,
+    "license": "CC0-1.0",
+    "page": "https://polyhaven.com/a/leafy_grass",
+    "servedFile": "leafy_grass-roughness.webp",
+    "servedBytes": 6864,
+    "dimensions": [
+      512,
+      512
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "bc719c7374fec36ddf041be3d8be93da98c6be665e310877ff454b5f160fe413"
+  },
+  {
+    "id": "asphalt_02",
+    "kind": "color",
+    "file": "asphalt_02-color.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_diff_1k.jpg",
+    "md5": "fa19772d4817754c3efab708c651f5a8",
+    "bytes": 731707,
+    "license": "CC0-1.0",
+    "page": "https://polyhaven.com/a/asphalt_02",
+    "servedFile": "asphalt_02-color.webp",
+    "servedBytes": 382402,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "07225badf8c0de26b8a974e74a93650041c6aa8d724e30b192ead83846f15e12"
+  },
+  {
+    "id": "asphalt_02",
+    "kind": "normal",
+    "file": "asphalt_02-normal.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_nor_gl_1k.jpg",
+    "md5": "338da8de636ea36133170578cac82e8e",
+    "bytes": 1240122,
+    "license": "CC0-1.0",
+    "page": "https://polyhaven.com/a/asphalt_02",
+    "servedFile": "asphalt_02-normal.webp",
+    "servedBytes": 50540,
+    "dimensions": [
+      512,
+      512
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "b3cef0569c823d6f786d672755f2296ed68661478ef51ba59b46eef014d398cc"
+  },
+  {
+    "id": "asphalt_02",
+    "kind": "roughness",
+    "file": "asphalt_02-roughness.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_rough_1k.jpg",
+    "md5": "ec80a2929797c1b3ffc121c4f665585a",
+    "bytes": 544032,
+    "license": "CC0-1.0",
+    "page": "https://polyhaven.com/a/asphalt_02",
+    "servedFile": "asphalt_02-roughness.webp",
+    "servedBytes": 67000,
+    "dimensions": [
+      512,
+      512
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "12893ec7ca763f83208d8fd3d095905cf8037c2c242d022941a1aff31b476df9"
+  },
+  {
+    "id": "pavement_03",
+    "kind": "color",
+    "file": "pavement_03-color.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/pavement_03/pavement_03_diff_1k.jpg",
+    "md5": "0d9a1252685f9ecc2fca7b4d2ea5a9da",
+    "bytes": 1119611,
+    "license": "CC0-1.0",
+    "page": "https://polyhaven.com/a/pavement_03",
+    "servedFile": "pavement_03-color.webp",
+    "servedBytes": 369820,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "985cc10a734d2848d65fec0b8b3166cfe6a8896f9cfccc0ba5f35a66b0169f75"
+  },
+  {
+    "id": "pavement_03",
+    "kind": "normal",
+    "file": "pavement_03-normal.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/pavement_03/pavement_03_nor_gl_1k.jpg",
+    "md5": "b00aced2598cfe14d6b8d5067b8c0b58",
+    "bytes": 1180142,
+    "license": "CC0-1.0",
+    "page": "https://polyhaven.com/a/pavement_03",
+    "servedFile": "pavement_03-normal.webp",
+    "servedBytes": 37278,
+    "dimensions": [
+      512,
+      512
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "e44017e85e6b26bcd752cc1feac04a0eddb1414e5ebb2b993c4d7da73c51a8da"
+  },
+  {
+    "id": "pavement_03",
+    "kind": "roughness",
+    "file": "pavement_03-roughness.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/pavement_03/pavement_03_rough_1k.jpg",
+    "md5": "f6b3512e033dbcf2b46e68b7182320c2",
+    "bytes": 498023,
+    "license": "CC0-1.0",
+    "page": "https://polyhaven.com/a/pavement_03",
+    "servedFile": "pavement_03-roughness.webp",
+    "servedBytes": 2268,
+    "dimensions": [
+      512,
+      512
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "e6f86f1e660356bd925946dd2eaa429dc987d63a407865f08285bed41467166e"
+  },
+  {
+    "id": "painted_plaster_wall",
+    "kind": "color",
+    "file": "painted_plaster_wall-color.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_plaster_wall/painted_plaster_wall_diff_1k.jpg",
+    "md5": "15ba8c1f63a5ab412b1eabe31728540a",
+    "bytes": 686726,
+    "license": "CC0-1.0",
+    "author": "Amal Kumar",
+    "page": "https://polyhaven.com/a/painted_plaster_wall",
+    "servedFile": "painted_plaster_wall-color.webp",
+    "servedBytes": 142092,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "b0fbc6b89d613d4dad46169258aafba359dad1560fb7ccd566f2bd856a9b8da1"
+  },
+  {
+    "id": "painted_plaster_wall",
+    "kind": "normal",
+    "file": "painted_plaster_wall-normal.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_plaster_wall/painted_plaster_wall_nor_gl_1k.jpg",
+    "md5": "43fff290583dbdfc9bfa088a2750e840",
+    "bytes": 900461,
+    "license": "CC0-1.0",
+    "author": "Amal Kumar",
+    "page": "https://polyhaven.com/a/painted_plaster_wall",
+    "servedFile": "painted_plaster_wall-normal.webp",
+    "servedBytes": 7430,
+    "dimensions": [
+      512,
+      512
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "d12cae60d1ab4a69230a532a93e8ddc70dd1864c9591cc3cf176946c95028748"
+  },
+  {
+    "id": "painted_plaster_wall",
+    "kind": "roughness",
+    "file": "painted_plaster_wall-roughness.jpg",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_plaster_wall/painted_plaster_wall_rough_1k.jpg",
+    "md5": "e076a6360329a2bc18c7397dc50c074a",
+    "bytes": 354762,
+    "license": "CC0-1.0",
+    "author": "Amal Kumar",
+    "page": "https://polyhaven.com/a/painted_plaster_wall",
+    "servedFile": "painted_plaster_wall-roughness.webp",
+    "servedBytes": 1058,
+    "dimensions": [
+      512,
+      512
+    ],
+    "conversion": "WebP quality 82, colour 1K / normal + roughness 512px",
+    "sha256": "ca2cb463d3a9235af54b449f39ee23419548a5f1ba15d97a0007b216d835afd8"
+  }
+]

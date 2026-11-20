@@ -1,0 +1,58 @@
+.walk-touch-root {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.walk-joystick {
+  position: absolute;
+  bottom: max(24px, env(safe-area-inset-bottom));
+  left: max(22px, env(safe-area-inset-left));
+  width: 112px;
+  height: 112px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,.6);
+  border-radius: 50%;
+  background: rgba(21, 42, 43, .62);
+  box-shadow: 0 5px 25px #0003;
+  touch-action: none;
+  user-select: none;
+  pointer-events: auto;
+  z-index: 20;
+}
+.walk-joystick-knob {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  background: #edf3e9;
+  color: #193e39;
+  border-radius: 50%;
+  font-size: 25px;
+  font-family: system-ui, sans-serif;
+  pointer-events: none;
+}
+.walk-look-hint {
+  position: absolute;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: max(58px, env(safe-area-inset-bottom));
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: rgba(21, 42, 43, .7);
+  color: white;
+  font: 12px system-ui, sans-serif;
+  pointer-events: none;
+  z-index: 20;
+}
+.walk-joystick[hidden], .walk-look-hint[hidden] { display: none; }
+@media (hover: hover) and (pointer: fine) {
+  .walk-joystick, .walk-look-hint { display: none; }
+}
+@media (max-height: 550px) and (orientation: landscape) {
+  .walk-joystick { width: 88px; height: 88px; bottom: 12px; }
+  .walk-look-hint { display: none; }
+}
+
+/* Festival route guidance already explains looking; avoid covering its action buttons. */
+.festival-active .walk-look-hint { display: none; }

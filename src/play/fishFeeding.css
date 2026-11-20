@@ -1,0 +1,9 @@
+.fish-feeding{position:absolute;z-index:14;right:18px;bottom:170px;display:flex;flex-wrap:wrap;align-items:center;gap:8px;max-width:min(420px,calc(100% - 36px));padding:10px;background:#fff8e9f5;border:1px solid #b4a382;border-radius:12px;color:#263f38;font:16px/1.5 'Segoe UI',sans-serif}
+.fish-feeding[hidden],.fish-feeding [hidden]{display:none}
+.fish-feeding button{font:inherit;min-height:44px;padding:8px 14px;border:1px solid #315b4f;border-radius:7px;background:#315b4f;color:#fff8e9;cursor:pointer}
+.fish-feeding button:last-child{background:transparent;color:#315b4f}
+.fish-feeding button:disabled{background:#ede6d7;color:#49564e;border-color:#b4a382;cursor:default}
+.fish-feeding button:focus-visible{outline:3px solid #bb752d;outline-offset:3px}
+.fish-feeding-hint{flex-basis:100%;font-size:14px}
+.fish-feeding-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+@media(max-height:480px){.fish-feeding{bottom:92px;right:80px;padding:8px;max-width:calc(100% - 170px)}}

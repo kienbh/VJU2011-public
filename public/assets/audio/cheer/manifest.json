@@ -1,0 +1,17 @@
+{
+  "license": "CC0-1.0",
+  "checked": "2026-11-17",
+  "files": [
+    {
+      "file": "goal.mp3",
+      "source": "397434_4019029-hq.mp3",
+      "sourceSHA256": "b621e391cb850ff79d8c215faf295119e747340803429ffbb383b5eaf4a132d2",
+      "sourceStart": 1.4,
+      "sourceLength": 2.0,
+      "duration": 2.037551,
+      "gainDB": -4.0,
+      "sha256": "81a524be8f4d9c4a4d3d4ed904191fdf8cbe756c42a33479b8177d489a5d20f8",
+      "bytes": 28934
+    }
+  ]
+}

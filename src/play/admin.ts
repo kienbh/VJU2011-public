@@ -1,0 +1,17 @@
+import {tr,trServer} from '../i18n/index.ts';
+/** Existing moderator credential; never persisted, printed, or embedded in a URL. */
+/** Existing moderator credential; never persisted, printed, or embedded in a URL. */
+export function mountPlayEditor(){
+ const trigger=document.createElement('button');trigger.textContent=tr('Duyệt thẻ câu cá');document.querySelector('.global-greeting-actions')?.append(trigger);
+ const dialog=document.createElement('dialog');dialog.className='play-dialog';document.body.append(dialog);let token='',items:any[]=[],selected=0;
+ const esc=(v:unknown)=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]!));
+ async function api(body?:unknown){const r=await fetch('/api/play/admin/content',{method:body?'POST':'GET',headers:{Authorization:'Bearer '+token,...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify(body):undefined});const d=await r.json();if(!r.ok)throw Error(d.error);return d;}
+ function render(error=''){
+  const item=items[selected];dialog.innerHTML=`<header><h2>${tr('Duyệt thẻ học bên hồ')}</h2><button data-close aria-label="${tr('Đóng biên tập')}">×</button></header><div class="play-body"><p role="status">${esc(error)}</p>${!token?`<form id="play-editor-login"><label>${tr('Mã quản trị')}<input name="token" type="password" required autocomplete="off"></label><button>${tr('Đăng nhập')}</button></form>`:`<label>${tr('Nội dung')}<select id="play-content-choice">${items.map((x,i)=>`<option value="${i}" ${i===selected?'selected':''}>${esc(x.id)} · ${esc(x.status)}</option>`).join('')}</select></label><form id="play-content-form">${[['text',tr('Câu chính')],['meaning',tr('Nghĩa Việt')],['type',tr('Loại: thành ngữ / tục ngữ / diễn giải')],['source',tr('Nguồn đã đối chiếu')],['example',tr('Tình huống sinh viên')],['action',tr('Hành động gợi ý')]].map(([k,label])=>`<label>${label}<textarea name="${k}" maxlength="1000">${esc(item?.data[k])}</textarea></label>`).join('')}<label>${tr('Trạng thái')}<select name="status"><option value="draft" ${item?.status==='draft'?'selected':''}>${tr('Bản nháp')}</option><option value="approved" ${item?.status==='approved'?'selected':''}>${tr('Đã duyệt · công khai')}</option></select></label><p>${tr('Nội dung mới mặc định nháp. Kiểm nguồn, loại câu, nghĩa và ví dụ trước khi duyệt. Đưa về nháp sẽ ẩn thẻ khỏi người chơi.')}</p><button>${tr('Lưu nội dung')}</button></form>`}</div>`;
+  dialog.querySelector('[data-close]')!.addEventListener('click',()=>dialog.close());
+  dialog.querySelector<HTMLFormElement>('#play-editor-login')?.addEventListener('submit',async e=>{e.preventDefault();token=String(new FormData(e.currentTarget as HTMLFormElement).get('token')||'');try{items=(await api()).items;render();}catch(e){token='';render(trServer((e as Error).message));}});
+  dialog.querySelector<HTMLSelectElement>('#play-content-choice')?.addEventListener('change',e=>{selected=Number((e.target as HTMLSelectElement).value);render();});
+  dialog.querySelector<HTMLFormElement>('#play-content-form')?.addEventListener('submit',async e=>{e.preventDefault();const form=e.currentTarget as HTMLFormElement,fd=new FormData(form),data=Object.fromEntries([...fd].filter(([k])=>k!=='status'));try{await api({id:item.id,data,status:fd.get('status')});items=(await api()).items;render(tr('Đã lưu.'));}catch(e){items[selected]={...item,data,status:fd.get('status')};render(trServer((e as Error).message));}});
+ }
+ trigger.onclick=()=>{render();dialog.showModal();};dialog.addEventListener('close',()=>{token='';items=[];});
+}

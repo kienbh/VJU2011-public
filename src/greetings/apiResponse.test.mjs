@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readApiResponse} from './apiResponse.ts';
+const json=(value,status=200)=>new Response(JSON.stringify(value),{status,headers:{'Content-Type':'application/json; charset=utf-8'}});
+test('valid configuration is accepted',async()=>{const value={event:{acceptingSubmissions:true,effectsEnabled:true,mode:'rehearsal',closingAt:null},recipients:[{id:'general',name:'VJU'}]};assert.deepEqual(await readApiResponse(json(value),'/api/config'),value);});
+test('successful HTML fallback produces Vietnamese retry error',async()=>{await assert.rejects(readApiResponse(new Response('<html>Vite</html>',{headers:{'Content-Type':'text/html'}}),'/api/config'),/Bản nháp vẫn được giữ/);});
+test('broken JSON does not become an empty success',async()=>{await assert.rejects(readApiResponse(new Response('{',{headers:{'Content-Type':'application/json'}}),'/api/config'),/Chưa đọc được/);});
+test('configuration missing event or recipients is rejected',async()=>{for(const value of [{},{event:{}},{event:{acceptingSubmissions:true,effectsEnabled:true,mode:'rehearsal',closingAt:null},recipients:[{}]}])await assert.rejects(readApiResponse(json(value),'/api/config'),/chưa đầy đủ/);});
+test('public list rejects malformed cards',async()=>{for(const greetings of [{},[{}],[{id:'1',message:42}]])await assert.rejects(readApiResponse(json({greetings}),'/api/greetings'),/chưa đầy đủ/);});
+test('server denial remains an error',async()=>{await assert.rejects(readApiResponse(json({error:'Vui lòng thử lại sau.'},429),'/api/greetings'),/Vui lòng thử lại sau/);});

@@ -1,0 +1,14 @@
+import {execFileSync} from 'node:child_process';
+import {writeFileSync} from 'node:fs';
+import {assertTrackedPublic} from './release-files.mjs';
+const run=(file,args)=>execFileSync(file,args,{stdio:'inherit'});
+run('git',['diff','--exit-code','HEAD','--']);
+if(execFileSync('git',['status','--porcelain','--untracked-files=normal'],{encoding:'utf8'}).trim())throw Error('Release requires a clean source worktree, including untracked source files.');
+assertTrackedPublic();
+run(process.execPath,['scripts/security-check.mjs']);
+const sha=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
+run(process.execPath,['node_modules/typescript/bin/tsc','--noEmit']);
+run(process.execPath,['node_modules/vite/bin/vite.js','build']);
+run(process.execPath,['scripts/security-check.mjs','--artifact','dist']);
+writeFileSync('dist/release.json',JSON.stringify({sha})+'\n');
+console.log('Release built from '+sha);

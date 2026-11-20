@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {createSceneTap} from './sceneTap.ts';
+const event=(x=10,y=10,more={})=>({pointerId:1,pointerType:'mouse',button:0,isPrimary:true,clientX:x,clientY:y,timeStamp:100,...more});
+test('mouse/touch taps allow small hand jitter and end only once',()=>{for(const pointerType of ['mouse','touch']){const tap=createSceneTap();tap.down(event(10,10,{pointerType}));tap.move(event(12,13,{pointerType}));assert(tap.up(event(11,12,{pointerType,timeStamp:250})));assert(!tap.up(event()));}});
+test('drag out and back never becomes a tap',()=>{const tap=createSceneTap();tap.down(event());tap.move(event(100,30));tap.move(event());assert(!tap.up(event()));});
+test('cancel, interruption and long holds cannot activate an object',()=>{const tap=createSceneTap();tap.down(event());tap.cancel();assert(!tap.up(event()));tap.down(event());assert(!tap.up(event(10,10,{timeStamp:1000})));tap.down(event());assert(tap.up(event()));});
+test('right button and second-finger look never activate an object',()=>{const tap=createSceneTap();tap.down(event(10,10,{button:2}));assert(!tap.up(event()));tap.down(event(10,10,{pointerType:'touch',isPrimary:false}));assert(!tap.up(event()));tap.down(event());tap.down(event(10,10,{pointerId:2,isPrimary:false}));assert(!tap.up(event(10,10,{pointerId:2})));assert(!tap.up(event()));});

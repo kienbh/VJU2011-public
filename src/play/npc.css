@@ -1,0 +1,18 @@
+/* NPC speech bubble: anchored above the NPC's head by npcGreetings.place(). */
+.npc-bubble{position:absolute;left:0;top:0;z-index:7;width:max-content;max-width:min(340px,calc(100% - 24px));padding:10px 14px 9px;border-radius:14px;
+  background:#fff8eaf2;color:#2c2622;box-shadow:0 6px 22px #0004;border:1px solid #e6d3ad;pointer-events:none;font:14px/1.35 system-ui,"Segoe UI",sans-serif}
+.npc-bubble[hidden]{display:none}
+.npc-bubble::after{content:"";position:absolute;left:calc(50% - 8px);bottom:-8px;border:8px solid transparent;border-bottom:0;border-top-color:#fff8eaf2}
+.npc-name{display:block;font-size:11px;letter-spacing:.03em;color:#8a6b46;margin-bottom:2px}
+.npc-line{margin:0;font-size:18px;font-weight:650;color:#7a2a24}
+.npc-bubble.is-ja .npc-line{font-family:"Hiragino Sans","Yu Gothic UI","Yu Gothic","Meiryo","Noto Sans JP",system-ui,sans-serif;font-size:20px}
+.npc-reading{margin:2px 0 0;font-size:13px;font-style:italic;color:#5b5047}
+.npc-meaning{margin:3px 0 0;font-size:13px;color:#3f4a46}
+.npc-reading[hidden],.npc-meaning[hidden],.npc-note[hidden]{display:none}
+.npc-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:6px}
+.npc-occasion{font-size:11px;color:#a0573f}
+.npc-replay{pointer-events:auto;min-height:32px;padding:4px 10px;border-radius:16px;border:1px solid #d9c39b;background:#fff;color:#5d3a2c;font-size:12px;cursor:pointer}
+.npc-replay:focus-visible{outline:2px solid #7a2a24;outline-offset:2px}
+.npc-note{display:block;margin-top:4px;font-size:11px;color:#8a6b46}
+@media(max-width:760px){.npc-bubble{max-width:calc(100% - 20px);padding:8px 12px}.npc-line{font-size:16px}.npc-bubble.is-ja .npc-line{font-size:18px}.npc-replay{min-height:40px}}
+.cinematic-active .npc-bubble{display:none}

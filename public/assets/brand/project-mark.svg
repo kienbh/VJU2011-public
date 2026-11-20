@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <title>20.11 — public campus project</title>
+  <circle cx="180" cy="180" r="172" fill="#fff8ec" stroke="#913f37" stroke-width="12"/>
+  <text x="180" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="91" font-weight="700" fill="#913f37">20.11</text>
+  <path d="M90 239h180" stroke="#294543" stroke-width="8" stroke-linecap="round"/>
+</svg>

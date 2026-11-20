@@ -1,0 +1,71 @@
+.account-dialog { position:fixed; inset:0; width:100%; height:100%; max-width:none; max-height:none; margin:0; padding:0; border:0; background:#fff7e8; }
+.account-dialog::backdrop { background:#fff7e8; }
+.participation {
+  --entry-surface: #fff7e8; --entry-text: #263d38; --entry-muted: #59675e;
+  --entry-accent: #344f47; --entry-heading: #873f34; --entry-border: #d3c8b5; --entry-focus: #996222;
+  position: fixed; inset: 0; z-index: 1000; overflow: auto; overscroll-behavior: contain;
+  box-sizing: border-box; background: var(--entry-surface); color: var(--entry-text);
+  font: 16px/1.55 "Segoe UI", Arial, sans-serif;
+  padding: 48px 32px max(32px, env(safe-area-inset-bottom));
+  display: grid; align-items: center; justify-items: center;
+}
+.participation-card { width: 100%; max-width: 1000px; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 88px); align-items: center; }
+.participation-intro { min-width: 0; }
+.participation-intro img { display: block; width: 168px; height: 68px; object-fit: contain; object-position: left center; }
+.participation-eyebrow { margin: 28px 0 14px; font-size: 14px; color: var(--entry-muted); letter-spacing: .04em; }
+.participation h1 { margin: 0; color: var(--entry-heading); font-size: clamp(36px, 4.2vw, 54px); line-height: 1.16; font-weight: 650; letter-spacing: -.03em; text-wrap: balance; }
+.participation h1 span { display: block; }
+.participation-lead { margin: 20px 0 0; font-size: 18px; line-height: 1.6; max-width: 380px; text-wrap: pretty; }
+.participation-choices { min-width: 0; width: 100%; max-width: 420px; justify-self: end; }
+.participation h2 { margin: 0 0 4px; font-size: 20px; line-height: 1.4; font-weight: 650; }
+.participation-hint { margin: 0 0 16px; color: var(--entry-muted); font-size: 15px; }
+.participation button, .participation-sso {
+  display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; box-sizing: border-box;
+  font: 600 16px/1.5 "Segoe UI", Arial, sans-serif; min-height: 48px; padding: 11px 16px;
+  border: 1px solid var(--entry-accent); border-radius: 8px; background: var(--entry-accent);
+  color: var(--entry-surface); cursor: pointer; text-decoration: none; margin: 0; white-space: normal;
+}
+.participation button span, .participation-sso span { font-size: 20px; opacity: 1; margin: 0; }
+.participation button:hover, .participation-sso:hover { background: #263f37; }
+.participation-divider { display: flex; align-items: center; gap: 12px; color: var(--entry-muted); font-size: 14px; margin: 24px 0; text-align: center; }
+.participation-divider::before, .participation-divider::after { content: ""; height: 1px; background: var(--entry-border); flex: 1; }
+.participation form { margin: 0; }
+.participation label { display: block; font-size: 15px; font-weight: 600; }
+.participation input { display: block; width: 100%; box-sizing: border-box; font: inherit; min-height: 48px; border: 1px solid #8a978c; padding: 11px 12px; margin: 8px 0 12px; background: #fffdf7; color: var(--entry-text); border-radius: 8px; }
+.participation input::placeholder { color: #667168; opacity: 1; }
+.participation form button { background: transparent; color: var(--entry-accent); }
+.participation form button:hover { background: #eee9dc; }
+.participation [data-anonymous], .participation [data-logout] { background: transparent; border-color: transparent; color: var(--entry-accent); text-decoration: underline; text-underline-offset: 4px; font-weight: 500; margin-top: 4px; }
+.participation [data-anonymous]:hover, .participation [data-logout]:hover { background: #eee9dc; }
+.participation-info { margin-top: 20px; border-top: 1px solid var(--entry-border); color: var(--entry-muted); font-size: 14px; }
+.participation-info summary { cursor: pointer; min-height: 44px; padding: 12px 0; width: fit-content; }
+.participation-info div { padding-bottom: 4px; }
+.participation-info p { margin: 0 0 12px; }
+.participation-credit { grid-column: 1 / -1; margin: 0; color: var(--entry-muted); font-size: 14px; line-height: 1.6; text-align: center; }
+.participation [hidden], .participation-status:empty { display: none; }
+.participation [role=status], .participation-unavailable { color: var(--entry-heading); margin: 12px 0 0; font-size: 16px; overflow-wrap: anywhere; }
+.participation :focus-visible, .participant-menu:focus-visible { outline: 3px solid var(--entry-focus, #996222); outline-offset: 3px; }
+.participation button:disabled, .participation-sso[aria-disabled=true] { cursor: wait; opacity: .65; }
+.participation-current { margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid var(--entry-border); }
+.participation-current p { margin: 0 0 12px; overflow-wrap: anywhere; }
+.participant-menu { font: 600 14px "Segoe UI", sans-serif; max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background: #fff6e5; color: #344b46; border: 1px solid #8b9b92; border-radius: 6px; min-height: 44px; padding: 8px 12px; cursor: pointer; }
+@media (max-width: 700px) {
+  .participation { padding: 24px 20px max(20px, env(safe-area-inset-bottom)); align-items: start; }
+  .participation-card { max-width: 420px; grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .participation-intro img { width: 116px; height: 46px; }
+  .participation-eyebrow { margin: 16px 0 8px; }
+  .participation h1 { font-size: clamp(30px, 8vw, 36px); letter-spacing: -.025em; }
+  .participation-lead { margin: 12px 0 0; font-size: 16px; max-width: 360px; }
+  .participation-divider { margin: 20px 0; }
+  .participation-info { margin-top: 12px; }
+}
+@media (max-width: 600px) { .participant-menu { max-width: 160px; } .masthead { flex-wrap: wrap; } }
+@media (max-height: 550px) and (min-width: 701px) {
+  .participation { align-items: start; padding: 24px; }
+  .participation-card { gap: 36px; }
+  .participation h1 { font-size: 40px; }
+}
+
+.participation .participation-lang { position: absolute; left: auto; width: auto; margin: 0; top: max(12px, env(safe-area-inset-top)); right: 16px; min-height: 40px; padding: 6px 14px; border: 1px solid var(--entry-border); border-radius: 999px; background: #fff; color: var(--entry-accent); font: 600 15px/1.2 "Segoe UI", "Yu Gothic UI", "Hiragino Sans", Meiryo, sans-serif; cursor: pointer; }
+.participation .participation-lang:hover { border-color: var(--entry-accent); background: #f4efe3; }
+.participation .participation-lang:focus-visible { outline: 3px solid var(--entry-focus); outline-offset: 2px; }

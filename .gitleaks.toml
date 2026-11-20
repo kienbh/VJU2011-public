@@ -1,0 +1,17 @@
+title = "VJU2011 release secret scanning"
+[extend]
+useDefault = true
+
+# Exact public browser-storage identifiers, verified against the original commits.
+# No path-wide exemptions: tests, docs and historical branches are still scanned.
+[[allowlists]]
+description = "Public localStorage/sessionStorage keys, not credentials"
+regexTarget = "secret"
+regexes = ['''^vju2011-(avatar-collection|receipt)-v1$''']
+
+[[rules]]
+id = "literal-password"
+description = "Quoted hard-coded password assignment"
+regex = '''(?i)(?:password|passwd|pwd)[\w-]*["']?\s*[:=]\s*["']([^\s"'$`][^"'\r\n]{7,})["']'''
+secretGroup = 1
+keywords = ["password", "passwd", "pwd"]

@@ -1,0 +1,51 @@
+{
+  "license": "CC0-1.0",
+  "checked": "2026-11-17",
+  "archiveSHA256": "c0c9ecc11e2dc0d190f0cced755569858234b8528286bc83becb6314c663407f",
+  "files": [
+    {
+      "file": "launch.mp3",
+      "source": "whistle-source.mp3",
+      "sourceSHA256": "662c9cc0565d1256f29145a2ceca6868815df2a193c36cbb1e55858602dc0fa2",
+      "sourceStart": 0.2,
+      "sourceLength": 0.9,
+      "duration": 0.9,
+      "gainDB": 34.6,
+      "sha256": "218e2c0f2c7ce18736c204b2a33cb2df0480d01c66c0011f489aa518718f85eb",
+      "bytes": 13574
+    },
+    {
+      "file": "burst-1.mp3",
+      "source": "fw_01.ogg",
+      "sourceSHA256": "1c8a6053433cd682a65665780ead9dfadc14c9442337e6d54469100bcb743694",
+      "sourceStart": 0,
+      "sourceLength": null,
+      "duration": 1.15449,
+      "gainDB": -3.4,
+      "sha256": "469b26dd8a50bfba57b7fdf8d1b91c00daa57bf4d2cec4b712d346be0ea90ec0",
+      "bytes": 17232
+    },
+    {
+      "file": "burst-2.mp3",
+      "source": "fw_03.ogg",
+      "sourceSHA256": "2f2c7e9d44d61a5ddcdf7982383229e9b3fa6e0d37651c07030ab7d21baca49c",
+      "sourceStart": 0,
+      "sourceLength": null,
+      "duration": 1.306349,
+      "gainDB": 0.0,
+      "sha256": "1c33461cdf6fa7da6e124b28a701c05ac73810cfef770653274d5efd172aa5ef",
+      "bytes": 19426
+    },
+    {
+      "file": "burst-3.mp3",
+      "source": "fw_04.ogg",
+      "sourceSHA256": "48c5f564ebba962c3f54cd6bc6d4d958c47e9a795aabe8a91643afaa9fdf4c11",
+      "sourceStart": 0,
+      "sourceLength": null,
+      "duration": 2.362562,
+      "gainDB": -2.8,
+      "sha256": "784428110ac59e90b8f1fd58c13ab810c0b4d3583e439b8b5530e3c8f2dfb519",
+      "bytes": 34054
+    }
+  ]
+}

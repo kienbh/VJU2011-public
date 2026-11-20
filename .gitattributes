@@ -1,0 +1,22 @@
+# Local/runtime files never belong in source downloads. This does NOT erase history.
+.local/** export-ignore
+data/** export-ignore
+backups/** export-ignore
+qa/** export-ignore
+docs/qa/** export-ignore
+*.env export-ignore
+*.env.* export-ignore
+.env export-ignore
+.env.* export-ignore
+*.pem export-ignore
+*.key export-ignore
+*.pfx export-ignore
+*.p12 export-ignore
+*.sqlite* export-ignore
+*.db export-ignore
+admin-token.txt export-ignore
+credentials*.json export-ignore
+secrets*.json export-ignore
+# Keep only reviewed, non-secret templates in source archives.
+.env.example -export-ignore
+deploy/rehearsal.env.example -export-ignore
